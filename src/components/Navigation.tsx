@@ -7,6 +7,7 @@ export function Navigation() {
   const menuItems: StaggeredMenuItem[] = [
     { label: "Home", ariaLabel: "Home", link: "/" },
     { label: "About", ariaLabel: "About", link: "#about" },
+    { label: "Prompts", ariaLabel: "Prompts", link: "/prompts" },
     { label: "Contact", ariaLabel: "Contact", link: "#contact" },
   ];
 
