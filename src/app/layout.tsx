@@ -1,21 +1,28 @@
 import type { Metadata } from "next";
-import { Archivo_Black, Space_Mono, Inter } from "next/font/google";
+import { Fredoka, Baloo_2, Gabarito, Poppins } from "next/font/google";
 import "./globals.css";
 
-const archivoBlack = Archivo_Black({
-  weight: "400",
-  variable: "--font-archivo-black",
+const fredoka = Fredoka({
+  weight: "600",
+  variable: "--font-fredoka",
   subsets: ["latin"],
 });
 
-const spaceMono = Space_Mono({
+const baloo2 = Baloo_2({
+  weight: "700",
+  variable: "--font-baloo2",
+  subsets: ["latin"],
+});
+
+const gabarito = Gabarito({
+  weight: "800",
+  variable: "--font-gabarito",
+  subsets: ["latin"],
+});
+
+const poppins = Poppins({
   weight: ["400", "700"],
-  variable: "--font-space-mono",
-  subsets: ["latin"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",
+  variable: "--font-poppins",
   subsets: ["latin"],
 });
 
@@ -32,7 +39,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${archivoBlack.variable} ${spaceMono.variable} ${inter.variable} h-full antialiased`}
+      className={`${fredoka.variable} ${baloo2.variable} ${gabarito.variable} ${poppins.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>

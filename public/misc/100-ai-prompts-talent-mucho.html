@@ -1,0 +1,1604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>100 AI Prompts for the Business You Actually Run | Talent Mucho</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --tm-cream:#F3ECE2;--tm-warm-white:#FBF7F1;--tm-espresso:#8A6F55;--tm-deep-espresso:#6B5240;--tm-near-black:#2A211B;
+  --tm-soft-taupe:#A89684;--tm-border-beige:#E4DCCE;--tm-body-gray:#5C534A;
+  --tm-serif:'Cormorant Garamond','Georgia',serif;--tm-sans:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+}
+*{box-sizing:border-box;}
+body{background:var(--tm-cream);font-family:var(--tm-sans);color:var(--tm-near-black);margin:0;}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px;}
+.hero{padding:80px 24px 56px;text-align:center;}
+.eyebrow{font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--tm-soft-taupe);margin-bottom:24px;}
+.h1{font-family:var(--tm-serif);font-size:48px;font-weight:400;line-height:1.15;margin:0;color:var(--tm-near-black);}
+.h1-italic{font-style:italic;color:var(--tm-espresso);}
+.subhead{font-size:16px;color:var(--tm-body-gray);line-height:1.6;max-width:560px;margin:24px auto 32px;}
+.pills{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:40px;}
+.pill{background:var(--tm-warm-white);border:1px solid var(--tm-border-beige);border-radius:999px;padding:10px 16px;font-size:14px;color:var(--tm-near-black);}
+.ctas{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;}
+.btn-primary{background:var(--tm-deep-espresso);color:var(--tm-warm-white);border:none;border-radius:999px;padding:16px 32px;font-size:15px;font-weight:500;text-decoration:none;display:inline-block;}
+.btn-secondary{background:transparent;border:1px solid var(--tm-border-beige);color:var(--tm-near-black);border-radius:999px;padding:16px 32px;font-size:15px;font-weight:500;text-decoration:none;display:inline-block;}
+.section{padding:64px 24px;}
+.section-warm{background:var(--tm-warm-white);}
+.section-cream{background:var(--tm-cream);}
+.h2{font-family:var(--tm-serif);font-size:32px;font-weight:400;color:var(--tm-near-black);margin:0 0 16px;}
+.lead{font-size:16px;color:var(--tm-body-gray);line-height:1.6;max-width:600px;}
+hr.divider{border:none;border-top:1px solid var(--tm-border-beige);margin:0;}
+.toc-grid{display:flex;flex-direction:column;gap:14px;margin-top:32px;}
+.toc-item{background:var(--tm-warm-white);border:1px solid var(--tm-border-beige);border-radius:12px;padding:20px 24px;display:flex;align-items:baseline;gap:18px;}
+.toc-num{font-family:var(--tm-serif);font-style:italic;color:var(--tm-espresso);font-size:26px;min-width:36px;}
+.toc-text strong{display:block;font-size:16px;color:var(--tm-near-black);font-weight:600;}
+.toc-text span{font-size:13px;color:var(--tm-soft-taupe);}
+.pillar-label{font-size:12px;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;color:var(--tm-soft-taupe);margin-bottom:8px;}
+.pillar-title{font-family:var(--tm-serif);font-size:36px;color:var(--tm-near-black);margin:0 0 12px;}
+.pillar-intro{font-size:16px;color:var(--tm-body-gray);line-height:1.6;max-width:600px;margin-bottom:40px;}
+.card{background:var(--tm-warm-white);border:1px solid var(--tm-border-beige);border-radius:12px;padding:24px;margin-bottom:20px;}
+.card-num{font-size:12px;font-weight:500;letter-spacing:0.15em;text-transform:uppercase;color:var(--tm-soft-taupe);margin-bottom:6px;}
+.card-title{font-family:var(--tm-sans);font-size:18px;font-weight:600;color:var(--tm-near-black);margin:0 0 12px;}
+.card-prompt{background:var(--tm-cream);border-left:3px solid var(--tm-espresso);border-radius:0 8px 8px 0;padding:18px 20px;font-size:14.5px;color:var(--tm-near-black);line-height:1.65;margin-bottom:12px;white-space:pre-line;}
+.card-tip{font-size:14px;color:var(--tm-espresso);font-style:italic;margin:0;}
+.footer-cta{background:var(--tm-near-black);color:var(--tm-cream);text-align:center;padding:80px 24px;}
+.footer-cta .h2{color:var(--tm-cream);}
+.footer-cta .lead{color:#d8cdbd;margin:0 auto 32px;}
+.footer{background:var(--tm-cream);text-align:center;padding:48px 24px;border-top:1px solid var(--tm-border-beige);}
+.footer p{font-size:13px;color:var(--tm-soft-taupe);margin:4px 0;}
+.footer a{color:var(--tm-espresso);text-decoration:none;}
+.steps{padding-left:0;margin:24px 0 32px;counter-reset:step;}
+.steps li{list-style:none;position:relative;padding-left:44px;margin-bottom:20px;font-size:16px;color:var(--tm-body-gray);line-height:1.6;max-width:600px;}
+.steps li::before{counter-increment:step;content:counter(step);position:absolute;left:0;top:0;width:28px;height:28px;background:var(--tm-warm-white);border:1px solid var(--tm-border-beige);border-radius:50%;text-align:center;line-height:28px;font-family:var(--tm-sans);font-size:13px;font-weight:600;color:var(--tm-espresso);}
+.starter-list{display:flex;flex-direction:column;gap:10px;margin-top:24px;}
+.starter-item{background:var(--tm-warm-white);border:1px solid var(--tm-border-beige);border-radius:10px;padding:14px 18px;font-size:14px;color:var(--tm-near-black);}
+.starter-item span{color:var(--tm-espresso);font-weight:600;}
+@media (max-width:600px){.h1{font-size:36px;}.pillar-title{font-size:28px;}.h2{font-size:26px;}}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="eyebrow">Talent Mucho Resource Library</div>
+  <h1 class="h1">100 AI Prompts<br><span class="h1-italic">for the Business You Actually Run</span></h1>
+  <p class="subhead">Copy-paste prompts for hiring VAs, running GoHighLevel, writing your own marketing, and keeping clients happy. Built for solo operators and lean teams, not Fortune 500 departments.</p>
+  <div class="pills">
+    <span class="pill">100 prompts</span>
+    <span class="pill">5 categories</span>
+    <span class="pill">Copy &amp; paste ready</span>
+    <span class="pill">Free</span>
+  </div>
+  <div class="ctas">
+    <a class="btn-primary" href="https://talentmucho.com" target="_blank">Book a Call</a>
+    <a class="btn-secondary" href="https://instagram.com/meribuilds" target="_blank">Follow on Instagram</a>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section section-warm">
+  <div class="wrap">
+    <p class="pillar-label">How to Use This Guide</p>
+    <h2 class="h2">Fill in the brackets. Paste the whole thing.</h2>
+    <p class="lead">Every [BRACKET] is something only you know about your business. Fill it in with real specifics, paste the full prompt into Claude, ChatGPT, or Gemini, and treat the first answer as a draft. Most of these ask for several things at once on purpose, that's what gets you a usable first draft instead of one generic paragraph. If something's close but not quite right, just say so and ask it to adjust, you don't need a new prompt for that.</p>
+  </div>
+</div>
+
+<div class="section section-cream">
+  <div class="wrap">
+    <p class="pillar-label">What's Inside</p>
+    <h2 class="h2">Five categories. Twenty prompts each.</h2>
+    <div class="toc-grid">
+      <div class="toc-item"><span class="toc-num">01</span><div class="toc-text"><strong>Building &amp; Leading Your Virtual Team</strong><span>Prompts 1&ndash;20</span></div></div>
+      <div class="toc-item"><span class="toc-num">02</span><div class="toc-text"><strong>Systems, SOPs &amp; Automation</strong><span>Prompts 21&ndash;40</span></div></div>
+      <div class="toc-item"><span class="toc-num">03</span><div class="toc-text"><strong>Marketing &amp; Content</strong><span>Prompts 41&ndash;60</span></div></div>
+      <div class="toc-item"><span class="toc-num">04</span><div class="toc-text"><strong>Sales, Lead Gen &amp; Follow-Up</strong><span>Prompts 61&ndash;80</span></div></div>
+      <div class="toc-item"><span class="toc-num">05</span><div class="toc-text"><strong>Client Experience &amp; Retention</strong><span>Prompts 81&ndash;100</span></div></div>
+    </div>
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section section-warm">
+  <div class="wrap">
+    <p class="pillar-label">Section 01</p>
+    <h2 class="pillar-title">Building &amp; Leading Your Virtual Team</h2>
+    <p class="pillar-intro">Most solo operators don't have an HR department, they have one VA and a hope that things work out. These 20 prompts cover hiring, onboarding, delegation, and the conversations that are easy to put off when there's no one to bounce them off.</p>
+
+<div class="card"><p class="card-num">Prompt 01</p><h3 class="card-title">Write a VA Job Post People Actually Apply To</h3><p class="card-prompt">Act as a recruiter who specializes in hiring virtual assistants for solo business owners and small service businesses. Here's what I'm working with:
+- Industry and what my business does: [DESCRIBE]
+- The role I'm hiring for: [ROLE, e.g., executive VA, social media VA, customer support VA]
+- Budget: [HOURLY RATE OR MONTHLY BUDGET]
+- How soon I need someone: [TIMEFRAME]
+- The last time a hire didn't work out, what went wrong: [DESCRIBE, OR SAY "first hire"]
+
+Please give me:
+1. A job posting that filters out unqualified applicants in the opening two sentences
+2. The 5 must-have skills for this specific role, ranked by importance
+3. A "day in the life" paragraph describing what a typical week actually looks like
+4. 5 screening questions to ask every applicant before a call, with the answer that should make me say no
+5. Where to post this for the best quality of applicants given my budget
+
+Write it in a tone that sounds like a real person hiring, not a corporate HR posting.</p><p class="card-tip">Customize it: Tell it your worst past hire and what went wrong, it'll write screening questions that catch that exact pattern.</p></div>
+
+<div class="card"><p class="card-num">Prompt 02</p><h3 class="card-title">Build the Interview Scorecard</h3><p class="card-prompt">Act as a hiring consultant for small service businesses who has interviewed hundreds of candidates for remote and contractor roles. Here's the situation:
+- Role I'm interviewing for: [ROLE]
+- What this person needs to be good at on day one: [LIST 2-3 SKILLS]
+- Where past hires for similar roles have fallen short: [DESCRIBE, IF APPLICABLE]
+- How many candidates I'm interviewing: [NUMBER]
+
+Please give me:
+1. 8 interview questions that reveal how someone actually works, not how they talk about working
+2. For each question, what a strong answer sounds like and what a weak or rehearsed answer sounds like
+3. A one-page scorecard with a 1-5 rating scale I can fill out live during the call
+4. 3 follow-up questions to use whenever an answer sounds memorized or vague
+
+Keep the language plain enough that I could hand this to someone else on my team to run the interview.</p><p class="card-tip">Customize it: Paste in a candidate's actual resume bullet points and ask it to write questions specific to their claims.</p></div>
+
+<div class="card"><p class="card-num">Prompt 03</p><h3 class="card-title">Draft the First 30 Days for a New VA</h3><p class="card-prompt">Act as an onboarding specialist who designs remote employee ramp-up plans for small businesses. Here's my context:
+- The role and what they'll be doing: [ROLE AND RESPONSIBILITIES]
+- Start date: [DATE]
+- Tools they'll need access to: [LIST, e.g., GoHighLevel, Slack, Notion, Google Drive]
+- What "fully ramped up" looks like by day 30: [DESCRIBE]
+
+Please give me:
+1. A welcome message I can send before their start date that sets the tone
+2. An hour-by-hour plan for day one covering logistics, tool access, and first introductions
+3. A day-by-day outline for the rest of week one
+4. A 30-day checklist of what they should know and be doing independently by month's end
+5. 3 check-in questions to ask at the end of week one to catch confusion early
+
+Write this so a VA with zero context on my business could follow it without getting stuck.</p><p class="card-tip">Customize it: Mention your tools (GoHighLevel, Slack, Notion, etc.) so the checklist references the actual platforms they'll log into.</p></div>
+
+<div class="card"><p class="card-num">Prompt 04</p><h3 class="card-title">Turn a Task in Your Head Into an SOP</h3><p class="card-prompt">Act as a process documentation expert who specializes in extracting undocumented knowledge from busy business owners. Here's what I need documented:
+- The task: [DESCRIBE THE TASK]
+- How often it happens: [FREQUENCY]
+- Tools or logins involved: [LIST]
+- The version of this that usually goes wrong: [DESCRIBE A TIME IT DID]
+
+First, ask me 5-7 clarifying questions about anything that's unclear or that you'd need to know to write this accurately. After I answer, write:
+1. A numbered, step-by-step SOP using the tools I named
+2. A short troubleshooting section covering the 2-3 most common ways this goes wrong
+3. A "definition of done" so whoever runs this knows when they're finished
+4. A one-line summary at the top describing who this is for and how long it takes
+
+Write the steps specific enough that someone who has never done this task could complete it without asking me anything.</p><p class="card-tip">Customize it: Answer its questions in voice-to-text if typing feels like a chore, a rough transcript is enough for it to work with.</p></div>
+
+<div class="card"><p class="card-num">Prompt 05</p><h3 class="card-title">Write the Delegation Script You Keep Avoiding</h3><p class="card-prompt">Act as a delegation coach who works with overwhelmed solo business owners who struggle to let go of tasks. Here's what I'm avoiding:
+- The task: [DESCRIBE TASK]
+- Why I haven't handed it off yet, be honest: [E.G., nobody does it as well as me, I haven't had time to explain it, I'm worried about quality]
+- Who I'd hand it to: [ROLE OR PERSON]
+- What "done well" looks like for this task: [DESCRIBE]
+
+Please give me:
+1. The exact message I'd send to delegate this task, written the way I'd actually talk
+2. A clear description of what "done well" looks like that I can include in the message
+3. What I need back from them and by when
+4. A version of this message I could send to a client if the handoff affects them directly
+5. One question to ask myself if I catch myself wanting to take the task back within the first week
+
+Keep the tone direct and human, not like a corporate handoff memo.</p><p class="card-tip">Customize it: If the task involves a client, ask it to also draft the version that explains the handoff to the client.</p></div>
+
+<div class="card"><p class="card-num">Prompt 06</p><h3 class="card-title">Set Up a Weekly Check-In That Doesn't Waste Anyone's Time</h3><p class="card-prompt">Act as an operations consultant who designs lean communication rhythms for small remote teams. Here's my team:
+- Number of people and their roles: [LIST]
+- Time zones involved, if relevant: [LIST]
+- Current check-in situation: [DESCRIBE, OR SAY "we don't have one"]
+- Biggest communication gap right now: [DESCRIBE]
+
+Please give me:
+1. A 15-minute weekly check-in format with the exact questions to ask
+2. What information should be shared asynchronously instead of discussed live, and where it should live
+3. A reusable template I can copy every week instead of rebuilding the agenda
+4. An async version of this check-in for weeks when live overlap isn't possible
+5. One sign that this check-in has stopped being useful and should be redesigned
+
+Keep this realistic for a team that's busy, not a corporate standup format.</p><p class="card-tip">Customize it: Ask for a Slack or async version too if your team doesn't always overlap in real time.</p></div>
+
+<div class="card"><p class="card-num">Prompt 07</p><h3 class="card-title">Translate Vague Feedback Into Useful Feedback</h3><p class="card-prompt">Act as a communication coach who helps non-confrontational leaders give direct, useful feedback without damaging the relationship. Here's my situation:
+- The issue I need to address: [DESCRIBE THE ISSUE PLAINLY]
+- My tendency when giving feedback: [E.G., I avoid it entirely, I soften it until it doesn't land, I over-explain]
+- Whether this is the first time I'm raising it or a repeat issue: [SPECIFY]
+- My relationship with this person: [DESCRIBE BRIEFLY]
+
+Please give me:
+1. The exact opening line to start this conversation
+2. The 2-3 things I need to say clearly, without softening them into vagueness
+3. How to respond if they get defensive or push back
+4. A written version of this message in case a live conversation isn't realistic
+5. One question to ask at the end to confirm they understood what's actually changing
+
+Write this in a tone that's direct but not harsh, and skip any corporate HR language.</p><p class="card-tip">Customize it: Tell it whether this is a first conversation or the third time you've raised it, the tone should shift.</p></div>
+
+<div class="card"><p class="card-num">Prompt 08</p><h3 class="card-title">Build a One-Page Culture Doc for a Team of 3</h3><p class="card-prompt">Act as a culture consultant who works specifically with small remote teams of contractors and VAs, not enterprise HR departments. Here's my context:
+- Industry and what my business does: [DESCRIBE]
+- Team size and roles: [LIST]
+- A moment that captures how we actually operate, good or bad: [DESCRIBE]
+- What I want this team to be known for: [E.G., speed, care, reliability]
+
+Please give me:
+1. A one-page culture document covering how we communicate day to day
+2. How we handle mistakes when they happen
+3. What "good work" looks like here in plain, specific terms
+4. One clear dealbreaker, something that would make working with us not a fit
+5. A short paragraph I could read out loud to a new hire on their first day
+
+Keep the language warm but specific, nothing that could apply to literally any business.</p><p class="card-tip">Customize it: Share one specific moment that captures your culture, good or bad, it gives the AI something real to anchor the language to.</p></div>
+
+<div class="card"><p class="card-num">Prompt 09</p><h3 class="card-title">Write the Time Zone Communication Rules</h3><p class="card-prompt">Act as a remote work consultant who designs communication policies for distributed teams of contractors and VAs. Here's my setup:
+- Time zones on my team: [LIST]
+- Our actual overlap hours, if any: [DESCRIBE]
+- Current biggest time zone problem: [DESCRIBE, e.g., things get dropped overnight, urgent issues sit for hours]
+
+Please give me:
+1. A short communication policy covering response time expectations by channel
+2. A clear definition of what counts as urgent versus what can wait
+3. A handoff protocol for the end of someone's workday so nothing falls through overnight
+4. The exact wording to use when something truly is urgent, so it doesn't get lost in routine messages
+5. One thing I should stop expecting given our actual overlap hours
+
+Write it as a one-page reference document, not a long policy manual.</p><p class="card-tip">Customize it: Mention your actual overlap hours, the policy should be built around the real window you share.</p></div>
+
+<div class="card"><p class="card-num">Prompt 10</p><h3 class="card-title">Diagnose Why a Task Keeps Coming Back to You</h3><p class="card-prompt">Act as a delegation diagnostician who helps business owners figure out why handoffs keep failing. Here's the pattern:
+- The task: [TASK]
+- Who I delegated it to: [ROLE]
+- What "coming back to me" actually looks like, with specific wording if you have it: [DESCRIBE]
+- How long this has been happening: [TIMEFRAME]
+
+Please walk me through:
+1. The 5 most likely reasons this keeps happening: unclear instructions, wrong person for the task, missing authority to make decisions, no feedback loop, or something else entirely
+2. Ask me 3-4 questions to help narrow down which one applies here
+3. Based on my answers, your best guess at the real root cause
+4. The specific fix for that root cause, not a generic delegation tip
+5. One way to test in the next 2 weeks whether the fix actually worked
+
+Be direct with me even if the likely answer is something I don't want to hear.</p><p class="card-tip">Customize it: Be specific about what "coming back" looks like, exact wording from their messages helps it diagnose accurately.</p></div>
+
+<div class="card"><p class="card-num">Prompt 11</p><h3 class="card-title">Write a Role Description That Actually Describes the Role</h3><p class="card-prompt">Act as an HR consultant who specializes in writing accurate role descriptions for small businesses, not generic corporate templates. Here's the situation:
+- Everything this person currently does, even the undefined or messy parts: [LIST]
+- Their current title, if they have one: [TITLE]
+- What I'd want them taking on next, if anything: [DESCRIBE]
+
+Please give me:
+1. A role description that reflects what they actually do day to day, not an aspirational version
+2. 2-3 growth responsibilities they could realistically take on next
+3. The 3 metrics or outcomes that would tell us they're succeeding in this role
+4. A short note on whether their current title still fits, given everything they actually do
+
+Keep this grounded in reality, not a wish list of what the role should ideally include.</p><p class="card-tip">Customize it: List the responsibilities exactly as they happen now, even the messy or undefined ones.</p></div>
+
+<div class="card"><p class="card-num">Prompt 12</p><h3 class="card-title">Plan a Performance Conversation You're Dreading</h3><p class="card-prompt">Act as a coach who helps non-confrontational business owners prepare for hard conversations they've been avoiding. Here's what I'm dealing with:
+- Who this conversation is with and their role: [ROLE]
+- The issue: [ISSUE]
+- My tendency in conversations like this: [E.G., I avoid it, I over-explain, I get defensive if they push back]
+- What's already been said about this, if anything: [DESCRIBE]
+
+Please give me:
+1. The opening line that starts this conversation without sounding like a setup for bad news
+2. The 2-3 things I need to say clearly and directly
+3. How to respond if they get defensive, deflect, or get emotional
+4. A written version in case this needs to happen over message instead of live
+5. What a successful outcome of this conversation actually looks like
+
+Write this like a real conversation, not a script from an HR manual.</p><p class="card-tip">Customize it: If this is a remote relationship, ask for a written version too in case a live call isn't realistic.</p></div>
+
+<div class="card"><p class="card-num">Prompt 13</p><h3 class="card-title">Build a Backup Plan for Your Most Critical Person</h3><p class="card-prompt">Act as a business continuity consultant who helps solo operators reduce dangerous single-person dependencies. Here's the risk:
+- The role or person: [ROLE/PERSON]
+- What would break if they were unreachable for two weeks starting tomorrow: [DESCRIBE]
+- How much of what they do is currently documented anywhere: [DESCRIBE, OR SAY "none of it"]
+- Who could realistically cover, even partially: [NAMES OR ROLES]
+
+Please give me:
+1. A simple backup plan covering what needs to be documented first
+2. Who could cover what, even imperfectly, in an emergency
+3. The 3 things I should put in place this month so this isn't a crisis next time
+4. A short list of what clients or partners would need to be told if this person was out unexpectedly
+5. A test I could run in the next 30 days to see how exposed I actually am
+
+Be specific to my situation, not a generic business continuity checklist.</p><p class="card-tip">Customize it: Be honest about how undocumented this role currently is, the plan changes a lot depending on that.</p></div>
+
+<div class="card"><p class="card-num">Prompt 14</p><h3 class="card-title">Write the "How I Like to Work" Doc for New Hires</h3><p class="card-prompt">Act as a working-styles consultant who helps business owners document how they operate so new hires don't have to guess. Ask me the following before writing anything:
+- How I prefer to communicate: written, async, or live calls
+- My pet peeves when working with others
+- How I give and want to receive feedback
+- What I need from people I work closely with to feel confident handing things off
+
+Once I've answered, please give me:
+1. A clear one-page "how I like to work" document based on my answers
+2. A short version, 3-4 bullets, that could go in an onboarding packet
+3. One thing in my answers that might be hard for a new hire to figure out on their own, flagged explicitly
+4. A question I should ask any new hire in return, so it goes both ways
+
+Keep this honest rather than polished, even if some of my answers aren't flattering.</p><p class="card-tip">Customize it: Answer the questions honestly, even the unflattering ones, this is more useful accurate than polished.</p></div>
+
+<div class="card"><p class="card-num">Prompt 15</p><h3 class="card-title">Write the Exit Interview Questions</h3><p class="card-prompt">Act as an HR consultant who specializes in getting honest, useful feedback from departing team members at small businesses. Here's the situation:
+- The role and how long they've been with me: [DESCRIBE]
+- Why they're leaving, if I already know: [DESCRIBE, OR SAY "unclear"]
+- What I'm most curious to learn from this conversation: [DESCRIBE]
+
+Please give me:
+1. 8 exit interview questions designed to surface honest, useful feedback instead of polite answers
+2. A short script for opening the conversation so they feel safe being candid
+3. 2-3 follow-up questions to use if an answer feels too diplomatic to be useful
+4. How to ask about my own leadership or management without making them feel put on the spot
+5. What to do with the answers afterward so this isn't just a feel-good exercise
+
+Write this as a real conversation guide, not a corporate HR form.</p><p class="card-tip">Customize it: If you already suspect why they're leaving, mention it, it helps write a follow-up that gets past the polite version of the truth.</p></div>
+
+<div class="card"><p class="card-num">Prompt 16</p><h3 class="card-title">Draft a Pay Raise or Rate Increase Conversation</h3><p class="card-prompt">Act as a compensation consultant who helps small business owners handle raises and rate increases fairly and confidently. Here's my situation:
+- Who I want to give a raise or rate increase to: [ROLE]
+- Why, specifically: [REASON, e.g., took on more responsibility, performance, market rate]
+- My budget ceiling for this: [AMOUNT OR RANGE]
+- How this person currently feels about their compensation, if I know: [DESCRIBE]
+
+Please give me:
+1. A fair number or range based on what I've described, with the reasoning behind it
+2. The message or talking points for how I bring this up
+3. How to handle it if they ask for more than my ceiling
+4. What I should document about this decision for future reference
+5. A timeline for when this should go into effect and how I'll communicate it
+
+Keep the tone confident, not apologetic about the business constraints involved.</p><p class="card-tip">Customize it: Mention your budget ceiling upfront so the suggested number is something you can actually commit to.</p></div>
+
+<div class="card"><p class="card-num">Prompt 17</p><h3 class="card-title">Turn a Recurring Complaint Into a Process Fix</h3><p class="card-prompt">Act as an operations troubleshooter who specializes in finding the real root cause behind recurring team problems. Here's the issue:
+- The recurring problem: [DESCRIBE]
+- The last 2-3 times it happened, with specific details: [DESCRIBE]
+- Who's involved when it happens: [ROLES]
+- What's already been tried, if anything: [DESCRIBE]
+
+Please help me figure out:
+1. Whether this is a training gap, a tooling gap, a process gap, or something else
+2. The questions I should ask to confirm which one it actually is
+3. The specific fix for whichever root cause applies, not a generic suggestion
+4. How to roll out this fix without it feeling like a punishment for past mistakes
+5. How I'll know in 30 days whether the fix actually worked
+
+Be willing to tell me if the real issue is something I'm not expecting.</p><p class="card-tip">Customize it: Describe the last 2-3 times this happened with specific details, patterns are easier to spot with real examples.</p></div>
+
+<div class="card"><p class="card-num">Prompt 18</p><h3 class="card-title">Write the Handoff Doc Before You Go on Vacation</h3><p class="card-prompt">Act as an operations assistant who specializes in building handoff plans for solo business owners taking real time off. Here's my situation:
+- Dates I'll be away: [START DATE] to [END DATE]
+- What happened the last time I tried to unplug, if it didn't go well: [DESCRIBE]
+- Who's covering while I'm out: [NAME/ROLE]
+- What counts as a true emergency worth interrupting me for: [DESCRIBE]
+
+Please give me:
+1. A handoff document covering what needs to be covered while I'm out
+2. Who's responsible for what, specifically
+3. A clear definition of what justifies interrupting my time off versus what should wait
+4. The exact message I'll send my team before going offline
+5. A short re-entry checklist for my first day back so I'm not drowning in catch-up
+
+Write this so it actually protects my time off instead of just looking good on paper.</p><p class="card-tip">Customize it: List what actually happened the last time you tried to unplug, the plan should prevent that specifically.</p></div>
+
+<div class="card"><p class="card-num">Prompt 19</p><h3 class="card-title">Build a Simple Capacity Check for Your Team</h3><p class="card-prompt">Act as a workload planning consultant who designs lightweight capacity tracking for small teams without formal time-tracking systems. Here's my team:
+- Roles and rough responsibilities: [LIST]
+- Who feels overloaded right now, based on your gut sense: [DESCRIBE]
+- Who has room for more, if anyone: [DESCRIBE]
+- How decisions about new work currently get assigned: [DESCRIBE]
+
+Please give me:
+1. A quick capacity check I can run monthly, in plain language, no spreadsheets required
+2. The questions to ask each team member to estimate their real workload
+3. A simple way to flag who's overloaded versus who has room, even with rough numbers
+4. What to do once I know someone is consistently over capacity
+5. A rule for when "we're busy" actually means "we need to hire"
+
+Keep this realistic for a team that's never tracked capacity formally before.</p><p class="card-tip">Customize it: Round numbers are fine, your honest gut sense of who's stretched thin is enough to start.</p></div>
+
+<div class="card"><p class="card-num">Prompt 20</p><h3 class="card-title">Write the "We're Growing" Announcement to Your Team</h3><p class="card-prompt">Act as an internal communications consultant who helps small business owners announce changes without creating anxiety on the team. Here's what's happening:
+- The change: [HIRING SOMEONE NEW, RESTRUCTURING A ROLE, CHANGING HOW WE WORK]
+- Why this is happening: [REASON]
+- The 2-3 questions I'm personally nervous someone will ask: [LIST]
+- How my team typically reacts to change: [DESCRIBE]
+
+Please give me:
+1. The announcement message to my current team
+2. Direct answers to the questions I'm nervous about, addressed before anyone has to ask
+3. What this change means for each existing role, specifically
+4. A line that acknowledges this might feel uncertain, without being dramatic about it
+5. What I should be ready to answer live if someone brings up something I didn't anticipate
+
+Write this in a tone that's confident and clear, not overly reassuring or vague.</p><p class="card-tip">Customize it: List the 2-3 questions you're personally nervous someone will ask, the announcement should answer those head-on.</p></div>
+
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section section-cream">
+  <div class="wrap">
+    <p class="pillar-label">Section 02</p>
+    <h2 class="pillar-title">Systems, SOPs &amp; Automation</h2>
+    <p class="pillar-intro">If a process only lives in your head, it's not a system, it's a single point of failure. These 20 prompts help you document what you already do, automate what doesn't need a human, and build the kind of operation that runs in GoHighLevel instead of in your inbox.</p>
+
+<div class="card"><p class="card-num">Prompt 21</p><h3 class="card-title">Turn a Messy Process Into a Clean SOP</h3><p class="card-prompt">Act as a process documentation specialist who helps solo and small business owners turn messy, undocumented processes into clear SOPs. Here's the process:
+- What happens, even if it's inconsistent or messy: [DESCRIBE]
+- Tools or platforms involved: [LIST]
+- Who currently does this: [ROLE]
+- Where it usually goes wrong: [DESCRIBE]
+
+First, ask me clarifying questions about anything unclear. Then give me:
+1. A numbered SOP with each step in order
+2. The tools needed at each step
+3. What "done right" looks like at the end
+4. A short troubleshooting section for the 2-3 most common issues
+5. How often this SOP should be reviewed and updated
+
+Write it specific enough that someone brand new could follow it without asking me anything.</p><p class="card-tip">Customize it: The messier your first answer, the better the SOP. Give it the real version, not the cleaned-up one.</p></div>
+
+<div class="card"><p class="card-num">Prompt 22</p><h3 class="card-title">Map Out a GoHighLevel Pipeline From Scratch</h3><p class="card-prompt">Act as a GoHighLevel automation consultant who builds sales pipelines for service businesses. Here's my situation:
+- What I sell: [PRODUCT/SERVICE]
+- My current sales process, even if it's rough: [DESCRIBE STAGES]
+- Where leads currently get stuck or lost: [DESCRIBE]
+- How many leads I get per month, roughly: [NUMBER]
+
+Please give me:
+1. A pipeline with clear, specific stage names
+2. What triggers a lead moving from one stage to the next
+3. Which stages should have automated follow-up versus a manual touch from me
+4. A tag or field structure to track lead source and quality
+5. One report I should check weekly to know if the pipeline is healthy
+
+Keep the stage count reasonable, more than 6 or 7 usually means some should be merged.</p><p class="card-tip">Customize it: List your actual stage names even if they're inconsistent right now, it'll tell you which ones to merge.</p></div>
+
+<div class="card"><p class="card-num">Prompt 23</p><h3 class="card-title">Build Your First Automation Without Overcomplicating It</h3><p class="card-prompt">Act as an automation strategist who works with non-technical business owners using tools like GoHighLevel, Zapier, or Make. Here's the task:
+- What I do manually every time, and what triggers it: [DESCRIBE]
+- How often this happens: [FREQUENCY]
+- Tools I currently have available: [LIST]
+- Roughly how much time this takes me each time: [ESTIMATE]
+
+Please tell me:
+1. Whether this is actually worth automating, or whether it's better delegated or eliminated
+2. Which tool is the right fit given what I have available
+3. The exact trigger and the exact actions, step by step, in plain language, not code
+4. What could go wrong with this automation and how I'd catch it
+5. How I'll know the automation is working correctly after I set it up
+
+Assume I've never built an automation before and explain accordingly.</p><p class="card-tip">Customize it: If you're not sure it's worth automating, ask it to confirm before building the steps.</p></div>
+
+<div class="card"><p class="card-num">Prompt 24</p><h3 class="card-title">Audit Your Tech Stack for Overlap</h3><p class="card-prompt">Act as a lean operations consultant who helps small businesses simplify their technology spend. Here's what I'm working with:
+- Every tool I currently pay for and its rough monthly cost: [LIST]
+- Tools I suspect I'm not using to their full potential: [LIST, IF KNOWN]
+- My biggest frustration with my current stack: [DESCRIBE]
+
+Please give me:
+1. Which tools likely overlap in function
+2. Which ones I could consolidate into GoHighLevel or one other platform
+3. What I'd gain and lose by making each suggested change
+4. A rough estimate of the monthly savings if I made the changes
+5. The order I should tackle these changes in, starting with the easiest win
+
+Be specific to the tools I listed, not generic software advice.</p><p class="card-tip">Customize it: Pull your actual billing statement line items if you want this to be fully accurate.</p></div>
+
+<div class="card"><p class="card-num">Prompt 25</p><h3 class="card-title">Design a Client Intake Flow That Doesn't Need You</h3><p class="card-prompt">Act as an operations designer who builds client intake systems for service businesses. Here's my current process:
+- What happens right now when a new client signs, even if it's just "I message them": [DESCRIBE]
+- How many clients I onboard per month: [NUMBER]
+- Tools available to me: [LIST, e.g., GoHighLevel, a VA, email]
+- The part of onboarding that currently eats the most of my time: [DESCRIBE]
+
+Please give me:
+1. A complete intake flow from signed contract to first deliverable
+2. What should be automated at each step
+3. What a VA should handle without me involved
+4. What only I need to do personally, and why
+5. The first 3 things to fix if I could only improve part of this right now
+
+Keep this realistic for my actual volume of clients, not an enterprise-scale process.</p><p class="card-tip">Customize it: Mention how many clients you onboard a month, the flow looks different at 2 a month versus 20.</p></div>
+
+<div class="card"><p class="card-num">Prompt 26</p><h3 class="card-title">Write the SOP for the Task Your VA Asks You About Most</h3><p class="card-prompt">Act as a documentation specialist who turns recurring questions into permanent SOPs. Here's the situation:
+- The task my VA keeps asking me about: [TASK]
+- What they usually get wrong or unsure about: [DESCRIBE]
+- Tools involved: [LIST]
+
+Please give me:
+1. A complete SOP detailed enough that they'd never need to ask again
+2. The 2-3 edge cases that usually trip people up on this task
+3. A troubleshooting section written last, based on what's actually unclear
+4. A short summary at the top so they know what this covers before reading the whole thing
+5. One question to ask my VA after they use this SOP to confirm it actually worked
+
+Write it in plain language, no internal jargon I haven't explained.</p><p class="card-tip">Customize it: Ask it to write the troubleshooting section last, that's usually where the real gaps show up.</p></div>
+
+<div class="card"><p class="card-num">Prompt 27</p><h3 class="card-title">Design a Weekly Ops Review for a One-Person Leadership Team</h3><p class="card-prompt">Act as a solo-operator business coach who designs lightweight weekly reviews for owners without a leadership team. Here's my setup:
+- How my business is currently supported: [DESCRIBE: VAs, contractors, solo]
+- What currently falls through the cracks most often: [DESCRIBE]
+- Tools I use to track work: [LIST, e.g., GoHighLevel, spreadsheet, nothing formal]
+
+Please give me:
+1. A 30-minute weekly review I can run entirely by myself
+2. The 5 questions to ask myself each week
+3. What to check in my CRM or GoHighLevel specifically
+4. What counts as a red flag worth addressing immediately versus something that can wait
+5. A simple way to track whether this review is actually catching problems over time
+
+Make this something I'd actually do every week, not an idealized version I'll abandon after two tries.</p><p class="card-tip">Customize it: Run this for two weeks before tweaking it, the first version is rarely the final one.</p></div>
+
+<div class="card"><p class="card-num">Prompt 28</p><h3 class="card-title">Plan the Automation for Your No-Show Problem</h3><p class="card-prompt">Act as a GoHighLevel automation consultant who specializes in reducing no-shows for booked calls. Here's my situation:
+- Roughly what percentage or number of booked calls turn into no-shows: [ESTIMATE]
+- My current reminder process, if any: [DESCRIBE]
+- How calls are typically booked: [DESCRIBE, e.g., calendar link, manual booking]
+
+Please give me:
+1. A complete reminder sequence with exact timing and channel for each touchpoint
+2. The message for each reminder, written so it doesn't feel robotic
+3. A no-show follow-up automation that tries to rebook without sounding desperate
+4. What to do with someone who no-shows twice in a row
+5. The one metric I should track to know if this is actually working
+
+Match the intensity of the sequence to my real no-show rate, not a generic best practice.</p><p class="card-tip">Customize it: Give it your actual no-show numbers if you have them, the sequence should match the real loss rate.</p></div>
+
+<div class="card"><p class="card-num">Prompt 29</p><h3 class="card-title">Turn Your Onboarding Emails Into an Automated Sequence</h3><p class="card-prompt">Act as an email automation specialist who builds onboarding sequences in GoHighLevel. Here's what I currently send manually:
+- The emails I send right now, even roughly: [LIST]
+- Which of these currently get a genuinely personal reply from me: [LIST]
+- How long onboarding typically takes from start to finish: [TIMEFRAME]
+
+Please give me:
+1. A fully automated sequence with exact timing for each email
+2. Subject lines for each one
+3. Which emails should stay personal and not be automated, and why
+4. What should trigger the next email, time-based or action-based
+5. One way to track whether this sequence is actually reducing my manual onboarding work
+
+Keep the tone of each email consistent with how I'd actually write to a client.</p><p class="card-tip">Customize it: Flag which emails currently get personal replies, those usually shouldn't be fully automated.</p></div>
+
+<div class="card"><p class="card-num">Prompt 30</p><h3 class="card-title">Build a Decision Tree for a Recurring Judgment Call</h3><p class="card-prompt">Act as a decision systems consultant who helps business owners build simple rules so their team can make decisions without escalating everything. Here's the decision:
+- What gets escalated to me: [DESCRIBE THE DECISION]
+- 2-3 real examples of times this decision went wrong: [DESCRIBE]
+- Who's currently escalating this to me: [ROLE]
+
+Please give me:
+1. A simple decision tree or rule set they could use to make this call themselves most of the time
+2. The specific criteria for when it should still come to me
+3. How this prevents the exact mistakes I described from happening again
+4. The exact wording I'd use to hand this decision authority over
+5. A way to check in a month whether they're using the rules correctly
+
+Keep the rules simple enough to remember without looking them up every time.</p><p class="card-tip">Customize it: Bring 2-3 real examples of times this decision went wrong, the rules should specifically prevent those.</p></div>
+
+<div class="card"><p class="card-num">Prompt 31</p><h3 class="card-title">Write the Process for Handling a Refund or Cancellation Request</h3><p class="card-prompt">Act as an operations consultant for service businesses who builds clear internal processes for handling refunds and cancellations. Here's my situation:
+- My current policy, or say I don't have one: [DESCRIBE]
+- Any past exceptions I've made: [DESCRIBE, IF APPLICABLE]
+- Who currently handles these requests: [ME/TEAM MEMBER]
+
+Please give me:
+1. A clear internal process for how requests should be handled
+2. What my team can decide on their own versus what needs to come to me
+3. The exact message that should go out to the client in a standard case
+4. How to handle a request that falls outside the standard policy
+5. How this policy should be communicated to clients upfront, so requests are less likely to surprise anyone
+
+Make this fair to clients but protective of my business, not a one-sided policy.</p><p class="card-tip">Customize it: If you've ever made an exception before, mention it, the policy needs to account for that precedent.</p></div>
+
+<div class="card"><p class="card-num">Prompt 32</p><h3 class="card-title">Design Your Client Project Tracker</h3><p class="card-prompt">Act as a project management consultant for small service businesses. Here's my context:
+- Number of active clients at a time: [NUMBER]
+- Current tracking method: [TOOL, OR "nothing formal"]
+- What currently gets missed or forgotten: [DESCRIBE]
+
+Please give me:
+1. A simple tracker structure with no more than 8 fields
+2. Clear status options and what each one means
+3. What "on track" versus "at risk" actually looks like in practice
+4. How a VA could maintain this in 10 minutes a day
+5. One report I could pull from this tracker that would actually change a decision I make
+
+Design this for a tool I could realistically build in a spreadsheet or GoHighLevel, not specialized software.</p><p class="card-tip">Customize it: Keep the field list under 8, a tracker nobody updates is worse than no tracker.</p></div>
+
+<div class="card"><p class="card-num">Prompt 33</p><h3 class="card-title">Write the SOP for Following Up on Stalled Leads</h3><p class="card-prompt">Act as a sales operations consultant who builds lead follow-up systems for service businesses. Here's my situation:
+- The stage where leads most often go cold: [STAGE]
+- My average sales cycle length: [TIMEFRAME]
+- What follow-up currently happens, if any: [DESCRIBE]
+
+Please give me:
+1. A follow-up SOP with the number of touches and timing between each
+2. What to say at each touch, getting progressively more direct
+3. The point at which a lead should be marked dead instead of followed up on forever
+4. How this should be set up in GoHighLevel as an automated or semi-automated sequence
+5. One thing to track to know if this follow-up sequence is recovering deals that would have otherwise been lost
+
+Match the cadence to my real sales cycle, not a generic follow-up template.</p><p class="card-tip">Customize it: Tell it your actual average days-to-close, the cadence should match your real sales cycle.</p></div>
+
+<div class="card"><p class="card-num">Prompt 34</p><h3 class="card-title">Build a Simple Quality Check Before Anything Goes to a Client</h3><p class="card-prompt">Act as a quality control consultant for service businesses. Here's what I deliver:
+- The deliverable: [DESCRIBE]
+- The last mistake that reached a client: [DESCRIBE]
+- Who currently checks quality before delivery, if anyone: [DESCRIBE]
+
+Please give me:
+1. A pre-delivery checklist with 5 to 7 items maximum
+2. At least one checklist item that would have caught the mistake I described
+3. Wording simple enough that a VA could run this without needing my judgment
+4. What should happen if something fails the checklist
+5. How often this checklist should be reviewed and updated as the business changes
+
+Keep this short enough that people will actually use it every time, not skip it when busy.</p><p class="card-tip">Customize it: Pull up your last client complaint and ask it to add a checklist item that would have caught it.</p></div>
+
+<div class="card"><p class="card-num">Prompt 35</p><h3 class="card-title">Map Your Client's Journey From Lead to Referral</h3><p class="card-prompt">Act as a customer journey consultant who maps client experiences for service businesses. Here's my context:
+- How someone typically first hears about me: [DESCRIBE]
+- The stages they go through until becoming a client: [DESCRIBE, EVEN ROUGHLY]
+- Where the journey currently breaks down or feels weak: [DESCRIBE]
+
+Please give me:
+1. A complete map of every stage from first contact to becoming a repeat client or referral source
+2. What should happen automatically at each stage
+3. What needs a human touch, and from whom
+4. The single weakest stage right now, based on what I described, and why it's worth fixing first
+5. One small change I could make in the next 2 weeks to improve that weak stage
+
+Be specific to my actual business, not a generic customer journey template.</p><p class="card-tip">Customize it: Be honest about where the journey currently breaks down, that's the stage worth fixing first.</p></div>
+
+<div class="card"><p class="card-num">Prompt 36</p><h3 class="card-title">Write the Process for What Happens When You're Sick</h3><p class="card-prompt">Act as a business continuity consultant for solo operators. Here's my risk:
+- What would be at risk if I couldn't work for a week starting tomorrow: [DESCRIBE]
+- Who could cover, even partially: [NAMES/ROLES]
+- What's currently documented anywhere: [DESCRIBE, OR SAY "nothing"]
+
+Please give me:
+1. An "if I'm out" plan covering what my VA or team should handle without me
+2. What should simply wait until I'm back
+3. The message that should go out to clients if my absence affects them
+4. What needs to be documented now, before this becomes urgent
+5. A simple test I could run, like a short trial absence, to see how exposed I actually am
+
+Make this realistic for a true emergency, not a planned vacation.</p><p class="card-tip">Customize it: List who could realistically cover for you, even partially, with real names attached.</p></div>
+
+<div class="card"><p class="card-num">Prompt 37</p><h3 class="card-title">Design the Monthly Report You Send Clients</h3><p class="card-prompt">Act as a client reporting consultant for service businesses. Here's my context:
+- How I currently update clients on results: [DESCRIBE, OR "inconsistently"]
+- The metrics that actually matter to my clients, in their language, not mine: [LIST]
+- An example of a past report, if I have one to share: [DESCRIBE OR PASTE]
+
+Please give me:
+1. A simple monthly report template covering the metrics that matter most
+2. Language a non-technical client would understand, no jargon
+3. A short narrative section explaining what the numbers mean, not just listing them
+4. What should happen if a metric is trending the wrong way
+5. How long this report should take me or a VA to put together each month
+
+Match this to my actual industry and the kind of results I deliver, not a generic marketing report.</p><p class="card-tip">Customize it: Paste an example of a report you've sent before so it matches your real metrics, not generic ones.</p></div>
+
+<div class="card"><p class="card-num">Prompt 38</p><h3 class="card-title">Build the SOP for Hiring Your Next VA</h3><p class="card-prompt">Act as a hiring systems consultant who turns one-off hiring processes into repeatable systems. Here's my context:
+- What's gone wrong in past VA hires, if anything: [DESCRIBE]
+- Where I've had success finding candidates before: [DESCRIBE]
+- Interview questions that have worked well for me: [LIST, IF ANY]
+
+Please give me:
+1. A complete SOP from posting the role to making the offer
+2. Where to post given my budget and the type of role
+3. How to screen applicants efficiently before a call
+4. The interview questions that have worked for me, refined and expanded
+5. A step specifically designed to catch the mistake I described from past hires
+
+Write this so I could hand the entire hiring process to someone else and trust the outcome.</p><p class="card-tip">Customize it: Include what's gone wrong in past hires, the SOP should build in a step that catches that specifically.</p></div>
+
+<div class="card"><p class="card-num">Prompt 39</p><h3 class="card-title">Turn Your Pricing Logic Into a Simple Rule</h3><p class="card-prompt">Act as a pricing strategy consultant for service businesses. Here's how I currently price:
+- My current pricing logic, even if it's "I just guess": [DESCRIBE]
+- 3-5 real past quotes I've given, if I have them: [LIST]
+- What factors actually change my pricing from client to client: [DESCRIBE]
+
+Please give me:
+1. A clear pricing rule or simple calculator based on the factors I described
+2. How this should account for the real quotes I shared
+3. A way my team could quote a price without needing me involved every time
+4. What should always require my personal sign-off, regardless of the rule
+5. How to communicate a price calculated this way without sounding like a rigid formula to the client
+
+Keep this grounded in what I've actually charged before, not theoretical pricing strategy.</p><p class="card-tip">Customize it: Give it 3-5 real past quotes if you have them, the rule should reflect what you've actually charged.</p></div>
+
+<div class="card"><p class="card-num">Prompt 40</p><h3 class="card-title">Design a 90-Day Plan to Get One Task Fully Off Your Plate</h3><p class="card-prompt">Act as a delegation strategist who builds structured handoff plans for solo business owners. Here's the task:
+- The task I want off my plate completely: [TASK]
+- Why I resent doing this task, specifically: [DESCRIBE]
+- Who could take this over: [ROLE/PERSON]
+- What's currently undocumented about how I do this: [DESCRIBE]
+
+Please give me:
+1. A step-by-step 90-day plan broken into stages
+2. What needs to be documented first before any handoff happens
+3. The timeline for handing this off in stages rather than all at once
+4. How I'll know it's actually safe to fully let go
+5. What I'll do with the time this frees up, so the plan has a real payoff attached to it
+
+Make this specific enough that I could start on it this week, not just a conceptual outline.</p><p class="card-tip">Customize it: Pick the task you resent doing the most, momentum matters more than picking the "easiest" one first.</p></div>
+
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section section-warm">
+  <div class="wrap">
+    <p class="pillar-label">Section 03</p>
+    <h2 class="pillar-title">Marketing &amp; Content</h2>
+    <p class="pillar-intro">You don't need a marketing degree or a content calendar template you'll abandon in three weeks. These 20 prompts help you write in your own voice, build an email sequence that actually goes out, and turn the knowledge already in your head into content people want to read.</p>
+
+<div class="card"><p class="card-num">Prompt 41</p><h3 class="card-title">Find Your Actual Brand Voice, Not a Generic One</h3><p class="card-prompt">Act as a brand voice strategist who reverse-engineers a person's natural voice into a usable writing guide. Here's a real sample of how I talk to clients: [PASTE A REAL EMAIL, DM, OR VOICE NOTE TRANSCRIPT]. Also tell me:
+- What I do and who I serve: [DESCRIBE]
+- A brand or communicator whose voice I admire, and why: [DESCRIBE]
+- What I don't want to sound like: [DESCRIBE, e.g., corporate, salesy, overly formal]
+
+Based on the sample, please give me:
+1. My brand voice defined in 4 specific words, not generic ones like "friendly" or "professional"
+2. 3 examples of what this voice sounds like in writing
+3. 3 examples of what it should never sound like
+4. A short style note on sentence length, punctuation, and how I use contractions
+5. One thing in my sample that's distinctly mine and worth protecting as I write more content
+
+Use the actual sample as your primary reference, not a generic brand voice framework.</p><p class="card-tip">Customize it: Use a real message you sent recently, not your best one, this works better with authentic samples.</p></div>
+
+<div class="card"><p class="card-num">Prompt 42</p><h3 class="card-title">Write a Month of Email Marketing Without Starting From Scratch</h3><p class="card-prompt">Act as an email marketing strategist who builds campaigns inside GoHighLevel for service-based businesses. Here's my context:
+- What I sell: [PRODUCT/SERVICE]
+- Who I'm selling to: [AUDIENCE]
+- My real send frequency goal: [WEEKLY, BIWEEKLY, ETC.]
+- What I want people to do after reading these emails: [SPECIFIC ACTION]
+
+Please give me:
+1. A 4-week plan with one theme per week
+2. A subject line and a full draft for each email
+3. A clear call to action in every email that matches what I actually want
+4. Which email in the sequence is the most important one for driving the action I want
+5. How I'd measure whether this month of emails actually worked
+
+Write the drafts in a voice that sounds like a real person, not a marketing template.</p><p class="card-tip">Customize it: Tell it your real send frequency goal, weekly is a different plan than twice a month.</p></div>
+
+<div class="card"><p class="card-num">Prompt 43</p><h3 class="card-title">Turn One Piece of Content Into a Week of Posts</h3><p class="card-prompt">Act as a content repurposing strategist who turns long-form content into platform-specific posts. Here's the content: [PASTE A BLOG POST, VIDEO TRANSCRIPT, OR LONG CAPTION]. Also tell me:
+- The platform I'm repurposing for: [PLATFORM]
+- My posting frequency goal: [NUMBER OF POSTS PER WEEK]
+- What result I want from these posts: [E.G., engagement, leads, followers]
+
+Please give me:
+1. 5 standalone posts pulled from this content, each with its own hook
+2. The best format for each one: carousel, single image, text post, short video script, etc.
+3. Which platform and format each idea fits best, if I'm cross-posting
+4. A posting order that builds on itself rather than feeling random
+5. One idea from this content that's strong enough to become its own separate piece later
+
+Keep each post able to stand alone without needing the original content to make sense.</p><p class="card-tip">Customize it: Specify the platform you're repurposing for, a LinkedIn breakdown looks different from a TikTok one.</p></div>
+
+<div class="card"><p class="card-num">Prompt 44</p><h3 class="card-title">Write Instagram Captions That Sound Like You</h3><p class="card-prompt">Act as a social media copywriter who matches a specific person's natural voice instead of writing generic brand copy. Here's how I talk: [DESCRIBE OR PASTE 2-3 REAL CAPTIONS OR MESSAGES]. Also tell me:
+- The topic for these captions: [TOPIC]
+- My audience: [DESCRIBE]
+- What I want people to do after reading: [COMMENT, SAVE, DM, CLICK LINK, ETC.]
+
+Please give me:
+1. 5 Instagram captions about this topic
+2. Each one using a different hook style: question, bold statement, story, stat, relatable struggle
+3. A call to action at the end of each one matching what I actually want
+4. Which of the 5 is most likely to perform best, and why
+5. One line in each caption that sounds distinctly like me, not a brand account
+
+Match the sentence rhythm and tone of my real examples, not a generic Instagram voice.</p><p class="card-tip">Customize it: Give it 3 real captions you've posted before so the voice match has something to work from.</p></div>
+
+<div class="card"><p class="card-num">Prompt 45</p><h3 class="card-title">Build a Lead Magnet From What You Already Know</h3><p class="card-prompt">Act as a lead generation strategist who helps experts package existing knowledge into lead magnets quickly. Here's my context:
+- What I know a lot about that I haven't packaged yet: [TOPIC]
+- What I already have to work from: [E.G., a PDF, a video, notes, nothing yet]
+- Who this would be for: [AUDIENCE]
+- What I want this lead magnet to lead to: [NEXT STEP, e.g., a call, a paid offer]
+
+Please give me:
+1. The single most valuable, specific lead magnet I could create from this knowledge
+2. Why this specific angle beats a more generic version of the topic
+3. An outline of exactly what goes inside it, section by section
+4. How long it should realistically take me to create, given what I already have
+5. The exact call to action at the end that leads into my next step
+
+Keep the scope small enough that I could realistically finish this in under a week.</p><p class="card-tip">Customize it: Mention what you already have, a PDF, a video, or notes, so it builds from real material.</p></div>
+
+<div class="card"><p class="card-num">Prompt 46</p><h3 class="card-title">Write the Welcome Email Sequence for New Subscribers</h3><p class="card-prompt">Act as an email marketing strategist who builds welcome sequences for new subscribers. Here's my context:
+- What they downloaded or signed up for: [LEAD MAGNET/OFFER]
+- What I want them to do by the end of the sequence: [SPECIFIC ACTION]
+- My brand voice in a sentence or two: [DESCRIBE]
+
+Please give me:
+1. A 4-email welcome sequence with a clear goal for each email
+2. The subject line and full draft for each one
+3. The ideal send timing for each email after signup
+4. What changes in tone or content if someone doesn't engage with email 1
+5. The specific moment in this sequence where I should introduce my paid offer, if relevant
+
+Write these so they read like a real person following up, not an automated drip campaign.</p><p class="card-tip">Customize it: Tell it what action you want them to take by email 4, that's what the sequence should build toward.</p></div>
+
+<div class="card"><p class="card-num">Prompt 47</p><h3 class="card-title">Find the Content Pillars You Should Actually Post About</h3><p class="card-prompt">Act as a content strategist for solo business owners building a content plan from scratch. Here's my context:
+- Who I help and what I actually do for them: [DESCRIBE]
+- What I don't want to be known for, or topics I want to avoid: [DESCRIBE]
+- Where I currently post, if anywhere: [PLATFORMS]
+
+Please give me:
+1. 4 content pillars I should be posting about consistently
+2. A one-sentence purpose for each pillar, explaining what it's meant to accomplish
+3. 10 specific post ideas under each pillar, 40 total
+4. Which pillar I should lean into most heavily right now, and why
+5. One pillar I might be missing that competitors in my space typically cover
+
+Keep the pillars specific to my actual expertise, not generic business advice categories.</p><p class="card-tip">Customize it: Mention what you don't want to be known for, that narrows the pillars faster than describing what you do.</p></div>
+
+<div class="card"><p class="card-num">Prompt 48</p><h3 class="card-title">Write a Sales Page Section by Section</h3><p class="card-prompt">Act as a direct response copywriter who writes sales pages for service-based offers. Here's my context:
+- What I'm selling: [OFFER]
+- Who it's for: [AUDIENCE]
+- Price: [PRICE]
+- The transformation, from before to after: [BEFORE STATE] to [AFTER STATE]
+- The 3 objections people actually raise before buying: [LIST]
+
+Please give me:
+1. A headline that leads with the transformation, not the offer name
+2. A problem section that names the real frustration in the audience's own words
+3. A solution section explaining my approach without overselling
+4. A clear list of what's included
+5. An FAQ section directly addressing the 3 objections I listed
+
+Write this in a tone that's confident without being hypey, no fake urgency or exclamation points doing the persuading.</p><p class="card-tip">Customize it: Paste in a page you admire, not to copy, but to show the tone you're aiming for.</p></div>
+
+<div class="card"><p class="card-num">Prompt 49</p><h3 class="card-title">Audit Your Last 10 Posts for What's Actually Working</h3><p class="card-prompt">Act as a social media analyst who finds patterns in content performance. Here are my last 10 posts and roughly how each performed: [PASTE OR DESCRIBE EACH ONE WITH ROUGH ENGAGEMENT]. Also tell me:
+- The platform: [PLATFORM]
+- What I was hoping these posts would accomplish: [GOAL]
+
+Please give me:
+1. The pattern in what's working across the posts that performed well
+2. The pattern in what's not working across the ones that underperformed
+3. 3 specific changes to make in my next 10 posts based on this
+4. One post format or topic I should try that I haven't yet
+5. A simple way to track this same data going forward without it becoming a chore
+
+Be honest with me even if the pattern points to something I might not want to hear, like posting too inconsistently to draw a real conclusion.</p><p class="card-tip">Customize it: Be honest about engagement numbers, even rough estimates surface the pattern.</p></div>
+
+<div class="card"><p class="card-num">Prompt 50</p><h3 class="card-title">Write a Newsletter People Actually Open</h3><p class="card-prompt">Act as an email newsletter strategist who builds simple, repeatable newsletter formats. Here's my context:
+- Who I'm writing to: [AUDIENCE]
+- What I want to write about regularly: [TOPIC]
+- My real send day and frequency: [DAY/FREQUENCY]
+
+Please give me:
+1. 3 subject line formulas that tend to get opened, with an example of each for my topic
+2. A simple, repeatable structure I can reuse every single issue
+3. A full draft of issue #1 using that structure
+4. A short note on what should always stay the same and what should change issue to issue
+5. One way to know if this newsletter is actually working beyond just open rates
+
+Write issue #1 so it sounds like a real person wrote it, not a template filled in.</p><p class="card-tip">Customize it: Decide your real send day before asking, the structure works better when built around a fixed rhythm.</p></div>
+
+<div class="card"><p class="card-num">Prompt 51</p><h3 class="card-title">Turn a Client Win Into a Case Study</h3><p class="card-prompt">Act as a case study writer for service businesses. Here's what happened: [DESCRIBE THE SITUATION, WHAT YOU DID, AND THE RESULT]. Also tell me:
+- Whether I have the client's permission to share specifics: [YES/NOT YET]
+- Where I plan to use this case study: [WEBSITE, SALES PAGE, SOCIAL, ETC.]
+
+Please give me:
+1. A short case study structured as challenge, approach, and result
+2. A pull quote I could ask the client to approve, based on what actually happened
+3. A version with identifying details removed, in case I don't have permission yet
+4. Where this case study would have the most impact given how I plan to use it
+5. A short message I could send the client to get their sign-off on the specifics
+
+Stick closely to what actually happened, don't embellish numbers or outcomes I haven't confirmed.</p><p class="card-tip">Customize it: Get client approval on the specifics before publishing, this is a draft for their review, not the final copy.</p></div>
+
+<div class="card"><p class="card-num">Prompt 52</p><h3 class="card-title">Write Your About Page So It Doesn't Sound Like Everyone Else's</h3><p class="card-prompt">Act as a brand storytelling consultant who writes About pages that lead with value, not just biography. Here's my context:
+- My background and why I started this business: [DESCRIBE]
+- What I do for clients, specifically: [DESCRIBE]
+- A page or brand whose About page tone I like: [DESCRIBE, IF ANY]
+
+Please give me:
+1. An opening section that answers "why should I work with you" before anything personal
+2. A section telling my story in a way that supports that answer, not a separate narrative
+3. A closing section with a clear next step for the reader
+4. One sentence that's distinctly mine and couldn't be copy-pasted onto a competitor's page
+5. What to cut if the page feels too long, prioritizing what actually builds trust
+
+Keep the personal story in service of the reader's decision, not just a memoir.</p><p class="card-tip">Customize it: Lead with the answer to "why should I work with you," save the personal story for later in the page.</p></div>
+
+<div class="card"><p class="card-num">Prompt 53</p><h3 class="card-title">Plan a Content Calendar Around Your Launch Dates</h3><p class="card-prompt">Act as a launch marketing strategist who builds content calendars around specific launch dates. Here's my context:
+- What I'm launching: [OFFER]
+- Launch date: [DATE]
+- My launch goal, as a number: [GOAL]
+- Where I'll be posting: [PLATFORMS]
+
+Please give me:
+1. A content calendar for the 4 weeks leading up to launch, with a theme and post idea for each day
+2. A separate plan for launch week itself
+3. A plan for the week after launch, including how to handle people who didn't buy
+4. The 3 most important pieces of content in this entire calendar, flagged clearly
+5. What to do if engagement is lower than expected halfway through
+
+Build this around the real goal I gave you, not a generic launch content calendar.</p><p class="card-tip">Customize it: Mention your launch goal as a number, the calendar should build toward a real stake.</p></div>
+
+<div class="card"><p class="card-num">Prompt 54</p><h3 class="card-title">Write the Re-Engagement Email for a Cold List</h3><p class="card-prompt">Act as an email marketing strategist using GoHighLevel who specializes in re-engaging cold subscribers. Here's my context:
+- How long counts as "cold" on my list, with an actual day count: [NUMBER OF DAYS]
+- What I last sent this list, if I know: [DESCRIBE]
+- What I want a re-engaged subscriber to do next: [ACTION]
+
+Please give me:
+1. A re-engagement email that doesn't sound desperate or apologetic
+2. A subject line that earns an open from someone who's stopped paying attention
+3. A simple rule for what to do with anyone who still doesn't engage after this
+4. Whether I should send this once or as a short sequence, and why
+5. What this tells me about my list health overall, based on the cold percentage
+
+Write the email so it reads like checking in with someone, not begging for attention.</p><p class="card-tip">Customize it: Define "cold" with an actual day count, the tone should shift depending on how long it's been.</p></div>
+
+<div class="card"><p class="card-num">Prompt 55</p><h3 class="card-title">Build a Simple Brand Style Guide From Scratch</h3><p class="card-prompt">Act as a brand consultant who builds lightweight style guides for solo business owners without access to a designer. Here's my context:
+- Industry and audience: [DESCRIBE]
+- The vibe I'm going for: [DESCRIBE]
+- 2-3 brands whose look or voice I like, even outside my industry: [LIST]
+
+Please give me:
+1. A suggested color palette with hex codes and a one-line reason for each choice
+2. A font pairing for headlines and body text
+3. 3 brand voice words with a short definition of each
+4. One thing to avoid given the vibe I described
+5. A simple way I could apply this consistently across social, email, and my website without hiring a designer
+
+Keep this simple enough that I could implement it myself this week.</p><p class="card-tip">Customize it: Mention 2-3 brands whose vibe you like, even outside your industry, it sharpens the direction fast.</p></div>
+
+<div class="card"><p class="card-num">Prompt 56</p><h3 class="card-title">Write 10 Hooks for the Same Piece of Content</h3><p class="card-prompt">Act as a copywriter who specializes in scroll-stopping hooks. Here's what the content is about: [DESCRIBE]. Also tell me:
+- The platform this is for: [PLATFORM]
+- The audience: [AUDIENCE]
+
+Please give me:
+1. 10 different opening lines for this content
+2. At least 5 different hook styles used across them: question, bold statement, story, stat, controversy, relatable struggle, etc.
+3. Which 3 you'd test first if you could only pick a few
+4. What makes each hook style suited to a different kind of reader
+5. One hook that's a bigger swing than the others, in case I want to take a risk
+
+Keep every hook under two sentences, the point is to stop the scroll, not explain the whole idea.</p><p class="card-tip">Customize it: Test at least 3 of the 10 hooks for real before assuming you know which one will win.</p></div>
+
+<div class="card"><p class="card-num">Prompt 57</p><h3 class="card-title">Turn Client Testimonials Into Marketing Copy</h3><p class="card-prompt">Act as a conversion copywriter who extracts usable marketing copy from raw testimonials. Here are some testimonials I've received: [PASTE THEM]. Also tell me:
+- Where I might use this copy: [WEBSITE, SALES PAGE, SOCIAL, EMAIL]
+- Whether I have permission to use specific names: [YES/NO]
+
+Please give me:
+1. The 3 most compelling specific phrases, not generic praise like "great experience"
+2. Where each one could be used, matched to the channels I listed
+3. A short post or graphic concept built around the strongest one
+4. What's missing from these testimonials that I should ask for next time
+5. A version with names removed, in case I need to use one without explicit permission
+
+Pull out specifics and numbers wherever they exist, that's what actually persuades.</p><p class="card-tip">Customize it: Get permission before publishing any testimonial copy, even when it's just rewording their own words.</p></div>
+
+<div class="card"><p class="card-num">Prompt 58</p><h3 class="card-title">Write the Email That Announces a Price Increase</h3><p class="card-prompt">Act as a client communication strategist who writes price increase announcements. Here's my context:
+- Old price: [OLD PRICE]
+- New price: [NEW PRICE]
+- Effective date: [DATE]
+- How much notice clients are getting: [TIMEFRAME]
+
+Please give me:
+1. An email that explains the increase clearly in the first two sentences
+2. A brief, confident reason for the change, without over-apologizing
+3. What stays the same, to reassure clients about continuity
+4. How to handle a client who pushes back or asks for an exception
+5. Internal talking points for my team in case clients ask them questions directly
+
+Match the tone to the size of the increase, a 5% bump reads differently than a 30% one.</p><p class="card-tip">Customize it: Give the actual percentage increase, the tone should differ between a 5% bump and a 30% one.</p></div>
+
+<div class="card"><p class="card-num">Prompt 59</p><h3 class="card-title">Plan Content Around the Questions Clients Actually Ask</h3><p class="card-prompt">Act as a content strategist who turns real client questions into content. Here are the questions I get most often: [LIST 5-10, IDEALLY PULLED FROM REAL EMAILS OR DMS]. Also tell me:
+- Where I'd publish this content: [PLATFORM]
+- What I want this content to do beyond just answering the question: [GOAL]
+
+Please give me:
+1. A content idea for each question: a post, email, or short video script
+2. The angle each piece should take so it also shows why working with me matters
+3. Which 3 questions are worth turning into bigger, standalone pieces of content
+4. A question I'm not being asked yet but probably should be answering anyway
+5. How to repurpose this content across more than one channel
+
+Keep the answers in plain language, the way I'd actually explain it to a client on a call.</p><p class="card-tip">Customize it: Pull these from real client emails or DMs if you can, not just what you assume they ask.</p></div>
+
+<div class="card"><p class="card-num">Prompt 60</p><h3 class="card-title">Write a Referral Request That Doesn't Feel Awkward</h3><p class="card-prompt">Act as a client communication consultant who writes natural, non-transactional referral requests. Here's my context:
+- A recent result a client was genuinely happy with: [DESCRIBE]
+- How I'd normally bring this up if I weren't avoiding it: [DESCRIBE]
+- What I'd want from a referral, specifically: [E.G., an intro, a name, a post]
+
+Please give me:
+1. A short written message I can send after a good result
+2. A spoken version I could say out loud on a call
+3. What makes this feel natural instead of transactional
+4. How to follow up if they don't respond, without sounding pushy
+5. What to say if they do refer someone, to close the loop and reinforce the behavior
+
+Time this around a real moment of satisfaction, not a random check-in.</p><p class="card-tip">Customize it: Time this right after a result they were genuinely happy with, not on a random Tuesday.</p></div>
+
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section section-cream">
+  <div class="wrap">
+    <p class="pillar-label">Section 04</p>
+    <h2 class="pillar-title">Sales, Lead Gen &amp; Follow-Up</h2>
+    <p class="pillar-intro">Most leads are lost in the follow-up, not the first call. These 20 prompts cover the scripts, sequences, and pipeline logic that keep leads moving without you personally chasing every single one.</p>
+
+<div class="card"><p class="card-num">Prompt 61</p><h3 class="card-title">Write the Discovery Call Script You Don't Have</h3><p class="card-prompt">Act as a sales consultant for solo service providers who currently wing their discovery calls. Here's my context:
+- What I sell: [SERVICE]
+- My current approach to discovery calls, even if it's "no real structure": [DESCRIBE]
+- What usually determines whether someone is a good fit: [DESCRIBE]
+
+Please give me:
+1. An opening for the call that builds rapport without wasting time
+2. 5 questions that uncover whether someone is actually a good fit
+3. How to transition from discovery into talking about my offer without it feeling like a pitch
+4. How to close the call with clear next steps
+5. What to do if someone clearly isn't a fit, so I can end the call respectfully
+
+Write this as a flexible guide, not a rigid script I'd sound robotic reading from.</p><p class="card-tip">Customize it: Record yourself doing a real call, with permission, and compare it to the script. The gaps will be obvious.</p></div>
+
+<div class="card"><p class="card-num">Prompt 62</p><h3 class="card-title">Build the Follow-Up Sequence for Leads Who Went Quiet</h3><p class="card-prompt">Act as a sales follow-up strategist using GoHighLevel. Here's my context:
+- How the original call actually went: [DESCRIBE THE RAPPORT AND WHAT WAS DISCUSSED]
+- How long they've been quiet: [TIMEFRAME]
+- What I'm hoping to learn or accomplish with this follow-up: [GOAL]
+
+Please give me:
+1. A 4-touch follow-up sequence spread over 2 weeks
+2. The exact message for each touch
+3. How the tone should shift as the sequence progresses, from warm to more direct
+4. What to do if they respond partway through, even with a non-committal answer
+5. The point at which I should stop following up and move them to a long-term nurture list instead
+
+Keep this matched to how genuinely good the original call was, don't oversell a lukewarm conversation.</p><p class="card-tip">Customize it: Be specific about how the original call actually went, the sequence's tone depends on the real rapport built.</p></div>
+
+<div class="card"><p class="card-num">Prompt 63</p><h3 class="card-title">Handle the Objection You Hear Most</h3><p class="card-prompt">Act as a sales coach who helps service providers respond to objections without sounding scripted. Here's the objection, quoted as people actually say it: [QUOTE THE OBJECTION]. Also tell me:
+- What I usually say in response right now: [DESCRIBE]
+- What I think the real concern underneath it is: [DESCRIBE, IF YOU HAVE A GUESS]
+
+Please give me:
+1. 3 different ways to respond to this objection
+2. The real concern each response is actually addressing
+3. A version that asks a question back instead of immediately defending
+4. What not to say, even if it feels like the obvious response
+5. How to know if my response actually landed versus just ended the conversation
+
+Keep these conversational, something I'd actually say out loud, not a rehearsed rebuttal.</p><p class="card-tip">Customize it: Quote the objection word for word if you can, the real phrasing matters more than a paraphrase.</p></div>
+
+<div class="card"><p class="card-num">Prompt 64</p><h3 class="card-title">Write a Proposal That Doesn't Take You Three Hours</h3><p class="card-prompt">Act as a proposal writing consultant for service businesses. Here's the client and the situation: [DESCRIBE THE CLIENT, THEIR PROBLEM, AND WHAT I'M PROPOSING]. Also tell me:
+- My typical proposal turnaround time right now: [ESTIMATE]
+- What clients usually ask follow-up questions about after receiving a proposal: [DESCRIBE]
+
+Please give me:
+1. A reusable proposal structure with clearly labeled sections
+2. This specific proposal written out using that structure
+3. A section addressing the questions clients usually ask, before they have to ask them
+4. What should always be customized versus what can stay templated
+5. A way to track which proposals convert, so I can improve the template over time
+
+Build the structure first, then fill in this specific example, so I have both a template and a finished proposal.</p><p class="card-tip">Customize it: Build the reusable structure once, then you're only filling in specifics for every proposal after this.</p></div>
+
+<div class="card"><p class="card-num">Prompt 65</p><h3 class="card-title">Design Your Lead Scoring System in GoHighLevel</h3><p class="card-prompt">Act as a CRM strategist who builds lead scoring systems inside GoHighLevel for small businesses. Here's my context:
+- Where my leads come from: [SOURCES]
+- My real lead volume per month: [NUMBER]
+- What currently makes a lead feel "hot" to me, even informally: [DESCRIBE]
+
+Please give me:
+1. A simple lead scoring system based on actions or info that indicate readiness
+2. What separates a "hot" lead from a "not yet ready" one in my specific business
+3. How scoring should change what automation or follow-up a lead receives
+4. The fields or tags I'd need to set up in GoHighLevel to track this
+5. How often I should review and adjust the scoring criteria
+
+Keep this simple enough to actually maintain given my real lead volume, not an enterprise scoring model.</p><p class="card-tip">Customize it: Mention your actual lead volume, scoring rules look different at 10 leads a month versus 100.</p></div>
+
+<div class="card"><p class="card-num">Prompt 66</p><h3 class="card-title">Write the Email for When a Prospect Chose a Competitor</h3><p class="card-prompt">Act as a sales communication consultant. Here's the situation: a prospect just told me they're going with someone else. Tell me:
+- What they said, if you have specifics: [DESCRIBE]
+- How the rest of the sales process went before this: [DESCRIBE]
+
+Please give me:
+1. A gracious response that keeps the door open without sounding desperate
+2. A question I could include to learn why I actually lost this one
+3. What to do if they don't respond to that question
+4. A note to myself on what this loss might reveal about my process
+5. How long to wait before reaching back out, if ever, and what that message would say
+
+Send this within 24 hours, write it so it still feels timely and natural at that speed.</p><p class="card-tip">Customize it: Send this within 24 hours while it's still natural, not weeks later when it reads as an afterthought.</p></div>
+
+<div class="card"><p class="card-num">Prompt 67</p><h3 class="card-title">Build a Win-Back Sequence for Past Leads</h3><p class="card-prompt">Act as a re-engagement strategist using GoHighLevel. Here's my context:
+- How long ago these leads went cold: [TIMEFRAME]
+- What I was offering them at the time versus now: [DESCRIBE IF DIFFERENT]
+- Why I think they didn't convert originally, if I have a guess: [DESCRIBE]
+
+Please give me:
+1. A 3-email win-back sequence
+2. How each email acknowledges the time gap honestly
+3. A clear, low-pressure reason for them to reconnect
+4. What's different now that might change their answer
+5. What to do with anyone who doesn't respond to any of the 3 emails
+
+Match the tone to the actual time gap, a lead from 3 months ago needs a different approach than one from 2 years ago.</p><p class="card-tip">Customize it: Be honest about the time gap, a 3-month-old lead and a 2-year-old lead need very different tones.</p></div>
+
+<div class="card"><p class="card-num">Prompt 68</p><h3 class="card-title">Write Your Pricing Page So People Don't Need to Ask</h3><p class="card-prompt">Act as a pricing communication consultant for service businesses. Here's my context:
+- What I offer and the price or range: [SERVICE AND PRICE]
+- The pricing questions people usually ask before booking a call: [LIST]
+- Why I haven't put pricing on my page before, if applicable: [DESCRIBE]
+
+Please give me:
+1. A pricing section that answers the most common questions upfront
+2. How to present the price so it feels like an investment, not a number on a menu
+3. What to include about what's included versus not included
+4. How to handle pricing that varies by project without looking vague
+5. A line that moves someone from reading the price to booking a call
+
+Keep this honest and specific, vague pricing pages create more friction than clarity.</p><p class="card-tip">Customize it: List your actual most-asked pricing questions, the page should answer those specifically.</p></div>
+
+<div class="card"><p class="card-num">Prompt 69</p><h3 class="card-title">Plan the Sales Pipeline Stages in GoHighLevel</h3><p class="card-prompt">Act as a sales operations consultant who sets up pipelines in GoHighLevel. Here's my context:
+- The type of sales process I run: [DESCRIBE]
+- My real stage count right now, even if it's messy: [DESCRIBE]
+- Where deals typically get stuck: [STAGE]
+
+Please give me:
+1. A clean set of pipeline stage names, ideally no more than 6 or 7
+2. What moves a lead from one stage to the next
+3. Which stages should trigger an automated action, like a tag, email, or task
+4. How to handle deals that stall at the stage I mentioned
+5. A weekly report I could pull from this pipeline to spot problems early
+
+Keep the stages specific to how my sales process actually works, not a generic CRM template.</p><p class="card-tip">Customize it: Name your real stage count, more than 6-7 stages usually means some should be merged.</p></div>
+
+<div class="card"><p class="card-num">Prompt 70</p><h3 class="card-title">Write the No-Show Recovery Message</h3><p class="card-prompt">Act as a sales follow-up strategist. Here's the situation: someone booked a call and didn't show up. Tell me:
+- How often this happens: [FREQUENCY]
+- What I currently do about it, if anything: [DESCRIBE]
+
+Please give me:
+1. The message I send the same day, right after the no-show
+2. A separate message for if they don't respond within 48 hours
+3. How both messages avoid guilt-tripping while still being direct
+4. What I should offer to make rebooking easy
+5. What to do if this is the second time the same person has no-showed
+
+Send the first message before you're tempted to feel annoyed, the tone holds up better that way.</p><p class="card-tip">Customize it: Send the same-day message before you're tempted to feel annoyed, the tone holds up better that way.</p></div>
+
+<div class="card"><p class="card-num">Prompt 71</p><h3 class="card-title">Turn a Past Client Into a Repeat Buyer</h3><p class="card-prompt">Act as a client retention strategist. Here's the situation: [DESCRIBE WHAT THEY BOUGHT AND HOW LONG AGO]. Also tell me:
+- Why they haven't come back, if I have a guess: [DESCRIBE]
+- What I could offer them now that might be relevant: [DESCRIBE]
+
+Please give me:
+1. A message that re-opens the conversation as a genuine check-in, not a pitch
+2. A specific reference to what they originally bought, so it doesn't feel generic
+3. Where in the message, if at all, to mention what's new or available now
+4. What to do if they respond but aren't ready to buy again
+5. How to keep this relationship warm even if this particular message doesn't convert
+
+Lead with curiosity about them, not your calendar, the rebooking ask should feel secondary.</p><p class="card-tip">Customize it: Mention what they originally bought, the reconnection should reference something specific.</p></div>
+
+<div class="card"><p class="card-num">Prompt 72</p><h3 class="card-title">Build the Qualifying Questions for Your Application Form</h3><p class="card-prompt">Act as a sales qualification consultant. Here's my context:
+- What kind of leads I want to filter out: [DESCRIBE]
+- My actual dealbreakers, decided in advance: [LIST]
+- What information I currently have no way of getting before a call: [DESCRIBE]
+
+Please give me:
+1. 6 application questions that filter for fit before a call happens
+2. The logic for which answers should auto-disqualify someone
+3. Which answers should flag someone for a closer look instead of an automatic yes or no
+4. How to phrase questions so people answer honestly instead of telling me what I want to hear
+5. What to do with someone who skips a question entirely
+
+Keep the form short enough that good-fit leads won't abandon it halfway through.</p><p class="card-tip">Customize it: Decide your real dealbreakers before writing the form, vague disqualifiers don't filter anything.</p></div>
+
+<div class="card"><p class="card-num">Prompt 73</p><h3 class="card-title">Write the Upsell Conversation for an Existing Client</h3><p class="card-prompt">Act as a sales strategist for service businesses. Here's my context:
+- What they currently buy: [CURRENT SERVICE]
+- What else could genuinely benefit them: [ADDITIONAL SERVICE]
+- A result they've already mentioned wanting, even informally: [DESCRIBE]
+
+Please give me:
+1. How I'd bring this up, framed around their goal, not my revenue
+2. The exact wording I'd use to introduce the idea
+3. How to handle it if they say it's not the right time
+4. A way to plant the idea now even if they're not ready to buy yet
+5. What evidence or example I could use to make the case concrete
+
+Keep the framing entirely about their result, mentioning revenue or upselling explicitly would undercut the message.</p><p class="card-tip">Customize it: Frame the additional service around a result they've already mentioned wanting.</p></div>
+
+<div class="card"><p class="card-num">Prompt 74</p><h3 class="card-title">Plan Your Cold Outreach Without Sounding Like Spam</h3><p class="card-prompt">Act as a cold outreach strategist. Here's my context:
+- Who I want to reach: [TYPE OF PROSPECT]
+- Something specific I could reference about them, not a generic detail: [DESCRIBE]
+- What I'm hoping happens after this message: [GOAL]
+
+Please give me:
+1. 3 versions of a first message, each under 75 words
+2. Each one leading with something specific to the recipient, not a generic pitch
+3. A soft call to action that doesn't ask for too much too soon
+4. What makes each version different in approach, so I can actually test them
+5. How to follow up if I get no response after the first message
+
+Write these so they read like a real person reached out, not a templated sequence.</p><p class="card-tip">Customize it: Send these as actual tests to 5 people each before scaling up, see which one gets real replies.</p></div>
+
+<div class="card"><p class="card-num">Prompt 75</p><h3 class="card-title">Write the Script for Handling Price Pushback</h3><p class="card-prompt">Act as a sales coach for solo service providers. Here's my context:
+- What I quote for this service: [PRICE] for [SERVICE]
+- What pushback usually sounds like: [DESCRIBE, OR PASTE AN EXAMPLE]
+- What I tend to do when this happens, be honest: [DESCRIBE]
+
+Please give me:
+1. 3 ways to respond that hold the price with confidence
+2. What to say if they ask for a discount directly
+3. How to respond to silence after quoting the price, without filling it nervously
+4. When, if ever, it makes sense to actually adjust the price or scope instead of holding firm
+5. How to know the difference between genuine pushback and a real budget mismatch
+
+Keep the tone calm and matter-of-fact, defensiveness usually makes pushback worse, not better.</p><p class="card-tip">Customize it: Practice saying the response out loud once, scripts that read well don't always say well.</p></div>
+
+<div class="card"><p class="card-num">Prompt 76</p><h3 class="card-title">Build the Referral Partner Outreach Message</h3><p class="card-prompt">Act as a partnership strategist. Here's my context:
+- Who serves the same audience as me without being a competitor: [TYPE OF BUSINESS/PERSON]
+- What I could offer them in return: [DESCRIBE]
+- What I'd want to propose if they respond: [DESCRIBE]
+
+Please give me:
+1. A first outreach message that's clearly not a cold sales pitch
+2. What I should propose on a call if they respond
+3. How to make the arrangement feel mutual instead of one-sided
+4. What to do if they're interested but slow to follow through
+5. How to track whether this partnership is actually generating referrals over time
+
+Pick a partner whose audience genuinely needs you, this approach falls flat as a purely transactional ask.</p><p class="card-tip">Customize it: Pick a partner whose audience genuinely needs you, this falls flat as a transactional ask.</p></div>
+
+<div class="card"><p class="card-num">Prompt 77</p><h3 class="card-title">Write the Sales Email Sequence for a Limited-Time Offer</h3><p class="card-prompt">Act as an email marketing strategist using GoHighLevel. Here's my context:
+- What I'm offering and the real deadline: [PRODUCT/SERVICE], [START DATE] to [END DATE]
+- Why this deadline is genuinely real, not manufactured: [DESCRIBE]
+- What I want people to do at each stage of the sequence: [DESCRIBE]
+
+Please give me:
+1. A 5-email sequence covering the announcement, value reminders, and the final-hours push
+2. Subject lines for each email
+3. How urgency should build across the sequence without resorting to fake scarcity
+4. What the final email should say differently than the rest
+5. What to send to anyone who didn't buy once the deadline passes
+
+Be honest with yourself about whether the deadline is real, fake urgency erodes trust fast and clients notice.</p><p class="card-tip">Customize it: Be honest with yourself about whether the deadline is real, fake urgency erodes trust fast.</p></div>
+
+<div class="card"><p class="card-num">Prompt 78</p><h3 class="card-title">Diagnose Why Your Close Rate Is Lower Than It Should Be</h3><p class="card-prompt">Act as a sales process auditor. Here's my process, walked through step by step: [WALK THROUGH FROM FIRST CONTACT TO CLOSED DEAL]. Also tell me:
+- My last 5 lost deals, with whatever detail you remember: [DESCRIBE]
+- Where I suspect the problem is, even if you're not sure: [DESCRIBE]
+
+Please give me:
+1. The most likely stage where I'm losing people, based on the pattern in my lost deals
+2. What's probably causing the drop-off at that stage
+3. One specific change to test first, before changing anything else
+4. A way to measure whether that change actually improves the close rate
+5. What to leave alone for now, even if it's tempting to fix everything at once
+
+Be direct with me even if the likely answer points to something in how I run the process personally.</p><p class="card-tip">Customize it: Walk through your last 5 lost deals specifically, the pattern usually shows up by the third one.</p></div>
+
+<div class="card"><p class="card-num">Prompt 79</p><h3 class="card-title">Write the Re-Booking Message for a Lapsed Client</h3><p class="card-prompt">Act as a client communication strategist. Here's the situation: a client who used to book regularly hasn't in [TIMEFRAME]. Also tell me:
+- What changed, if I know: [DESCRIBE]
+- What I'd want to offer if rebooking comes up naturally: [DESCRIBE]
+
+Please give me:
+1. A message that checks in genuinely, with no mention of booking in the opening lines
+2. Where, if anywhere, rebooking should be mentioned, and how casually
+3. What to do if they respond but don't bring up working together again
+4. A follow-up plan if they don't respond at all
+5. How to read whether the relationship is actually over versus just dormant
+
+Lead with curiosity about them, not your calendar, the rebooking ask should feel secondary, not the point.</p><p class="card-tip">Customize it: Lead with curiosity about them, not your calendar, the rebooking ask should feel secondary.</p></div>
+
+<div class="card"><p class="card-num">Prompt 80</p><h3 class="card-title">Build the Sales Call Follow-Up Email Template</h3><p class="card-prompt">Act as a sales communication consultant. Here's my context:
+- What a good discovery call covers for me, generally: [DESCRIBE]
+- What "next steps" usually look like after a good call: [DESCRIBE]
+
+Please give me:
+1. A reusable follow-up template with placeholders for call-specific details
+2. A recap section that shows I was actually listening, not generic
+3. Clear next steps spelled out, with a deadline attached
+4. What to include if the next step is them, not me, taking action
+5. How soon after the call this should go out to land while the conversation is still fresh
+
+Build the placeholders so filling this in takes me under 5 minutes per call.</p><p class="card-tip">Customize it: Send this within an hour of the call ending while the conversation is still fresh for both of you.</p></div>
+
+  </div>
+</div>
+
+<hr class="divider">
+
+<div class="section section-warm">
+  <div class="wrap">
+    <p class="pillar-label">Section 05</p>
+    <h2 class="pillar-title">Client Experience &amp; Retention</h2>
+    <p class="pillar-intro">Keeping a client is cheaper than finding a new one, and most of retention comes down to a handful of moments handled well. These 20 prompts cover onboarding, check-ins, hard conversations, and the small touches that make people stay.</p>
+
+<div class="card"><p class="card-num">Prompt 81</p><h3 class="card-title">Design the First Email a New Client Gets</h3><p class="card-prompt">Act as a client experience designer. Here's the situation: someone just signed with me for [SERVICE]. Also tell me:
+- What happens immediately after signing, logistically: [DESCRIBE]
+- What I need from them to get started: [DESCRIBE]
+
+Please give me:
+1. A welcome email that goes out within an hour of signing
+2. What happens next, laid out clearly
+3. What I need from them and by when
+4. A line that genuinely conveys how excited I am to work with them, not a generic platitude
+5. What should come right after this email, so the momentum doesn't drop
+
+Send this the moment the contract is signed, the excitement matters more in the first hour than the first day.</p><p class="card-tip">Customize it: Send this the moment the contract is signed, the excitement matters more in the first hour than the first day.</p></div>
+
+<div class="card"><p class="card-num">Prompt 82</p><h3 class="card-title">Build the Client Onboarding Checklist</h3><p class="card-prompt">Act as an onboarding systems consultant. Here's everything that needs to happen between a client signing and their first deliverable, even if it's inconsistent right now: [LIST]. Also tell me:
+- Who's currently involved: [ME, VA, CLIENT]
+- What's gone wrong in past onboarding, if anything: [DESCRIBE]
+
+Please give me:
+1. A checklist of every step from signing to first deliverable
+2. A clear owner for each step: me, a VA, or the client
+3. What should be automated versus done manually
+4. A step that specifically addresses what's gone wrong before
+5. How long this entire process should realistically take from start to finish
+
+List every step exactly as it happens now, even the inconsistent ones, that's what needs fixing first.</p><p class="card-tip">Customize it: List every step exactly as it happens now, even the inconsistent ones, that's what needs fixing first.</p></div>
+
+<div class="card"><p class="card-num">Prompt 83</p><h3 class="card-title">Write the Check-In Message for the Midpoint of a Project</h3><p class="card-prompt">Act as a client communication consultant. Here's the project: [DESCRIBE THE PROJECT AND WHERE IT STANDS]. Also tell me:
+- How things seem to be going so far, honestly: [DESCRIBE]
+
+Please give me:
+1. A midpoint check-in message
+2. A question that surfaces concerns before they become complaints
+3. How to phrase this so it doesn't sound like I'm fishing for a compliment
+4. What to do if they raise a concern I wasn't expecting
+5. How this message should differ if the project is going well versus if it's shaky
+
+Send this even when things are going fine, waiting for a problem to check in is too late.</p><p class="card-tip">Customize it: Send this even when things are going fine, waiting for a problem to check in is too late.</p></div>
+
+<div class="card"><p class="card-num">Prompt 84</p><h3 class="card-title">Design Your Client Feedback Survey</h3><p class="card-prompt">Act as a client experience researcher. Here's my context:
+- What I want feedback on: [PROJECT/SERVICE COMPLETION]
+- Why past feedback attempts have felt too polite or vague, if applicable: [DESCRIBE]
+
+Please give me:
+1. A short survey, 5 questions max
+2. Questions designed to get past polite, surface-level answers
+3. How to introduce the survey so people actually respond
+4. What to do with a response that's vague or unhelpful
+5. How often I should be sending this, given my client volume
+
+Keep it under 5 questions, response rates drop fast past that.</p><p class="card-tip">Customize it: Keep it under 5 questions, response rates drop fast past that.</p></div>
+
+<div class="card"><p class="card-num">Prompt 85</p><h3 class="card-title">Write the Offboarding Message for a Finished Engagement</h3><p class="card-prompt">Act as a client experience consultant. Here's the situation: a client's engagement with me is wrapping up. Also tell me:
+- How the engagement went overall, honestly: [DESCRIBE]
+- What I'd want to happen next, if anything: [REFERRAL, FUTURE WORK, NOTHING]
+
+Please give me:
+1. An offboarding message that thanks them specifically, not generically
+2. A summary of what was delivered over the engagement
+3. How to open the door to future work or a referral without being pushy
+4. How this message should change if the engagement didn't go perfectly
+5. What internal note I should keep about this client for future reference
+
+Send this even for projects that didn't go perfectly, the message just needs to be honest, not glowing.</p><p class="card-tip">Customize it: Send this even for projects that didn't go perfectly, the message just needs to be honest, not glowing.</p></div>
+
+<div class="card"><p class="card-num">Prompt 86</p><h3 class="card-title">Handle a Client Complaint Without Getting Defensive</h3><p class="card-prompt">Act as a client relations coach. Here's the complaint, as they actually said it: [DESCRIBE WHAT THEY SAID]. Also tell me:
+- What part of this is fair, even if it's hard to admit: [DESCRIBE]
+- What actually happened from my side: [DESCRIBE]
+
+Please give me:
+1. A response that acknowledges what's valid in their complaint
+2. How to address the issue directly without over-explaining or making excuses
+3. A proposed fix, specific and actionable
+4. A tone check, calm and accountable, not defensive or over-apologetic
+5. What I should do internally afterward so this doesn't happen again
+
+Respond within 24 hours even without a fix yet, silence reads worse than an honest "still working on it."</p><p class="card-tip">Customize it: Respond within 24 hours even without a fix yet, silence reads worse than an honest "still working on it."</p></div>
+
+<div class="card"><p class="card-num">Prompt 87</p><h3 class="card-title">Write the Email That Sets Expectations Before You've Started</h3><p class="card-prompt">Act as a client communication strategist. Here's my context:
+- Communication expectations I want to set: [TURNAROUND TIME, CHANNELS, AVAILABILITY]
+- What's in scope versus out of scope for this engagement: [DESCRIBE]
+- A misunderstanding from a past client that this should prevent: [DESCRIBE, IF APPLICABLE]
+
+Please give me:
+1. A friendly but clear email setting expectations before kickoff
+2. How communication will work day to day
+3. What's included versus what would require a separate conversation
+4. A line that prevents the past misunderstanding I described from happening again
+5. What tone to strike so this reads as helpful, not like a legal disclaimer
+
+Send this before the first deliverable, not after the first miscommunication.</p><p class="card-tip">Customize it: Send this before the first deliverable, not after the first miscommunication.</p></div>
+
+<div class="card"><p class="card-num">Prompt 88</p><h3 class="card-title">Design a Simple Client Loyalty or Referral Program</h3><p class="card-prompt">Act as a client retention strategist for service businesses. Here's my context:
+- What I want to reward: long-term clients, referrals, or both: [SPECIFY]
+- What I'm willing to offer, even informally: [DESCRIBE]
+- Why a corporate points system wouldn't fit my brand: [DESCRIBE OR SKIP]
+
+Please give me:
+1. 3 simple ways to reward referrals or loyalty without a complicated points system
+2. The message that introduces whichever option fits best
+3. How to track this without needing new software
+4. What to do when someone qualifies, so the reward actually gets delivered
+5. How to keep this feeling genuine instead of transactional over time
+
+Keep it simple enough to explain in one sentence, complicated loyalty programs don't get used.</p><p class="card-tip">Customize it: Keep it simple enough to explain in one sentence, complicated loyalty programs don't get used.</p></div>
+
+<div class="card"><p class="card-num">Prompt 89</p><h3 class="card-title">Write the Apology Email for a Mistake You Made</h3><p class="card-prompt">Act as a client relations consultant. Here's what went wrong: [DESCRIBE THE MISTAKE]. Also tell me:
+- The fix, if I already know it: [DESCRIBE]
+- How significant this mistake actually was to the client: [DESCRIBE]
+
+Please give me:
+1. An apology email that owns the mistake in the first sentence
+2. An explanation of the fix without over-explaining how it happened
+3. What to offer, if anything, to rebuild trust
+4. How to avoid sounding like I'm groveling while still being genuinely accountable
+5. What I should track internally so this specific mistake doesn't repeat
+
+Own the mistake in the first sentence, burying the apology in paragraph two undercuts it.</p><p class="card-tip">Customize it: Own the mistake in the first sentence, burying the apology in paragraph two undercuts it.</p></div>
+
+<div class="card"><p class="card-num">Prompt 90</p><h3 class="card-title">Plan the Anniversary Touchpoint for Long-Term Clients</h3><p class="card-prompt">Act as a client experience designer. Here's my context:
+- How long my longest clients have been with me: [TIMEFRAME]
+- What I currently do to acknowledge milestones, if anything: [DESCRIBE]
+
+Please give me:
+1. A simple way to acknowledge a client's work anniversary with me
+2. How to make this feel genuine even if part of the process is automated
+3. What to include that's specific to that client, not generic
+4. A version of this for a client at the 1-year mark versus the 3-year mark
+5. What this touchpoint should lead to, if anything, beyond just appreciation
+
+Note the actual start date if you have it, a specific milestone lands better than a vague "thanks for being with us."</p><p class="card-tip">Customize it: Note the actual start date if you have it, a specific milestone lands better than a vague "thanks."</p></div>
+
+<div class="card"><p class="card-num">Prompt 91</p><h3 class="card-title">Write the Testimonial Request That Gets a Real Answer</h3><p class="card-prompt">Act as a client communication consultant. Here's my context:
+- A recent result worth asking about: [DESCRIBE]
+- What's wrong with the testimonials I usually get back, if anything: [DESCRIBE, e.g., too vague, too short]
+
+Please give me:
+1. A testimonial request with specific questions instead of an open-ended ask
+2. Why these specific questions get more usable answers
+3. What to do if they answer briefly anyway
+4. How to ask for permission to use their name or business alongside the testimonial
+5. Where I should send this from, email versus a quick call, depending on the client
+
+Ask within a week of the result, not months later when the details have faded.</p><p class="card-tip">Customize it: Ask within a week of the result, not months later when the details have faded.</p></div>
+
+<div class="card"><p class="card-num">Prompt 92</p><h3 class="card-title">Build the "Are We Still a Good Fit?" Check-In</h3><p class="card-prompt">Act as a client retention strategist. Here's my context:
+- A long-term client relationship I'd want to check in on: [DESCRIBE]
+- What I'm genuinely unsure about in this relationship, if anything: [DESCRIBE]
+
+Please give me:
+1. A check-in message that asks honestly whether the relationship is still working for them
+2. Follow-up questions to use if they hesitate or give a vague answer
+3. How to receive an honest "this isn't working anymore" without getting defensive
+4. What to do if they say things are great but something in their behavior suggests otherwise
+5. How often this kind of check-in should happen with long-term clients
+
+Ask this even with clients who seem happy, the ones who hesitate are the ones worth hearing from.</p><p class="card-tip">Customize it: Ask this even with clients who seem happy, the ones who hesitate are the ones worth hearing from.</p></div>
+
+<div class="card"><p class="card-num">Prompt 93</p><h3 class="card-title">Write the Scope Creep Conversation Without Sounding Petty</h3><p class="card-prompt">Act as a client boundaries consultant. Here's the situation: a client keeps asking for things outside of what we agreed on. Specific examples: [DESCRIBE EXAMPLES]. Also tell me:
+- What's actually in our agreed scope: [DESCRIBE]
+- Why I haven't brought this up yet: [DESCRIBE]
+
+Please give me:
+1. How to bring this up, acknowledging their request without immediately saying no
+2. Clear language distinguishing what's in scope from what isn't
+3. What to propose for handling the out-of-scope request, like a separate project or fee
+4. How to prevent this from feeling like a confrontation
+5. What to put in future agreements to prevent this exact pattern
+
+Bring the actual examples of the scope creep, vague descriptions won't produce a useful script.</p><p class="card-tip">Customize it: Bring the actual examples of the scope creep, vague "sometimes they ask for extra stuff" won't help.</p></div>
+
+<div class="card"><p class="card-num">Prompt 94</p><h3 class="card-title">Design the Client Experience Map From First Contact to Year One</h3><p class="card-prompt">Act as a client experience consultant. Here's my context:
+- Every touchpoint I can think of from first contact through year one, even roughly: [LIST]
+- Which of these currently exist versus which are missing: [DESCRIBE]
+
+Please give me:
+1. A complete map of every touchpoint from first conversation through year one
+2. For each one, whether it currently exists or is missing
+3. What's missing that would make the experience feel more intentional
+4. The 3 highest-impact gaps to fix first
+5. A rough timeline for closing those gaps over the next 90 days
+
+Be honest about which touchpoints don't exist yet, that's more useful than describing the ones that already work.</p><p class="card-tip">Customize it: Be honest about which touchpoints don't exist yet, that's more useful than describing the ones that work.</p></div>
+
+<div class="card"><p class="card-num">Prompt 95</p><h3 class="card-title">Write the Message for When You Need to Raise a Client's Rate</h3><p class="card-prompt">Act as a client communication strategist. Here's my context:
+- Old rate and new rate: [OLD RATE] to [NEW RATE]
+- How long this client has been with me: [TIMEFRAME]
+- How much notice I'm planning to give: [TIMEFRAME, AT LEAST 30 DAYS]
+
+Please give me:
+1. A message announcing the increase that's warm but not apologetic about the decision
+2. A brief, confident reason for the change
+3. What stays the same, to reassure them about continuity
+4. How to handle it if they push back given how long they've been a client
+5. What I should be prepared to offer, if anything, to keep them if they hesitate
+
+Give real notice, at least 30 days, regardless of what the message says, timing matters as much as wording.</p><p class="card-tip">Customize it: Give real notice, at least 30 days, regardless of what the message says, timing matters as much as wording.</p></div>
+
+<div class="card"><p class="card-num">Prompt 96</p><h3 class="card-title">Build the "What Happens If You Cancel" Process</h3><p class="card-prompt">Act as an operations consultant. Here's what currently happens when a client wants to cancel or pause, even if it's "nothing formal": [DESCRIBE]. Also tell me:
+- My actual refund or pause policy, if I have one: [DESCRIBE]
+- What's happened in past cancellations that I'd want to handle differently: [DESCRIBE]
+
+Please give me:
+1. A clear, fair process for handling cancellation or pause requests
+2. The message that goes out to the client
+3. The internal steps that follow, like updating records or stopping billing
+4. How to handle a request that falls outside the standard policy
+5. How this policy should be communicated upfront, before anyone needs to use it
+
+Decide your actual refund or pause policy before writing the message, the process needs a real answer to lean on.</p><p class="card-tip">Customize it: Decide your actual refund or pause policy before writing the message, the process needs a real answer to lean on.</p></div>
+
+<div class="card"><p class="card-num">Prompt 97</p><h3 class="card-title">Write the Client Update Format You'll Actually Stick To</h3><p class="card-prompt">Act as a client communication consultant. Here's my context:
+- How often I want to send updates: [WEEK/MONTH]
+- Why I'm inconsistent about it right now: [DESCRIBE]
+- What clients actually want to know, versus what I think they want to know: [DESCRIBE]
+
+Please give me:
+1. A simple, short update format, not a long report
+2. What sections it should include, kept to the essentials
+3. How long this should realistically take me to fill out each time
+4. A version I could send even on a genuinely busy week
+5. What to do if there's truly nothing new to report
+
+Pick a format short enough that you'd actually send it on a Friday at 4pm, that's the real test.</p><p class="card-tip">Customize it: Pick a format short enough that you'd actually send it on a Friday at 4pm, that's the real test.</p></div>
+
+<div class="card"><p class="card-num">Prompt 98</p><h3 class="card-title">Plan the Re-Engagement for a Client Who's Gone Quiet</h3><p class="card-prompt">Act as a client relations strategist. Here's the situation: a client used to be responsive and now isn't replying about [DESCRIBE WHAT YOU'VE BEEN WAITING ON]. Also tell me:
+- How long they've been quiet: [TIMEFRAME]
+- What I need from them to move forward: [DESCRIBE]
+
+Please give me:
+1. A message that checks in without guilt-tripping them
+2. How to frame the ask so it doesn't feel like a reminder of their silence
+3. A backup plan if they still don't respond
+4. When to escalate this to a phone call or a different channel
+5. What this pattern might mean about the relationship if it keeps happening
+
+Wait for a reasonable silence window, a week, not a day, before sending this.</p><p class="card-tip">Customize it: Wait for a reasonable silence window, a week, not a day, before sending this.</p></div>
+
+<div class="card"><p class="card-num">Prompt 99</p><h3 class="card-title">Write the "Year in Review" Recap for a Long-Term Client</h3><p class="card-prompt">Act as a client reporting consultant. Here's what we accomplished together this year, as much detail as I have: [DESCRIBE WINS, NUMBERS, MILESTONES]. Also tell me:
+- What's planned or being discussed for next year, if anything: [DESCRIBE]
+
+Please give me:
+1. A structure covering wins, numbers where relevant, and what's next
+2. A full draft based on what I've described
+3. How to make this feel personal to this specific client, not a template
+4. Where to mention what's coming next without it feeling like a sales pitch
+5. A closing line that reinforces the relationship, not just the results
+
+Pull actual numbers or milestones from the year, specifics make this land, vague praise doesn't.</p><p class="card-tip">Customize it: Pull actual numbers or milestones from the year, specifics make this land, vague praise doesn't.</p></div>
+
+<div class="card"><p class="card-num">Prompt 100</p><h3 class="card-title">Design Your Client Experience Audit</h3><p class="card-prompt">Act as a client experience auditor. Here's my context:
+- My business and the type of client experience I deliver: [DESCRIBE]
+- The last time I looked at my own client experience from their perspective, if ever: [DESCRIBE]
+
+Please give me:
+1. 8 questions to ask myself about every touchpoint in my client experience
+2. How to answer these honestly, from the client's perspective, not my own
+3. Based on common answers to these questions, the 3 highest-impact changes most businesses like mine need to make
+4. How to turn my own answers into a prioritized action list
+5. How often I should run this audit going forward
+
+Do this audit once a quarter, not just once, client experience erodes quietly if nobody's checking.</p><p class="card-tip">Customize it: Do this audit once a quarter, not just once, client experience erodes quietly if nobody's checking.</p></div>
+
+  </div>
+</div>
+
+<div class="section section-cream">
+  <div class="wrap">
+    <p class="pillar-label">Bonus</p>
+    <h2 class="h2">Turn Your Favorite Prompts Into Skills</h2>
+    <p class="lead">Copy-pasting the same prompt every week works, but it's not the fastest way to use it. A Skill is a set of instructions you save once inside Claude. After that, you don't paste anything, you just describe what you need and Claude pulls in the right instructions on its own.</p>
+
+    <ol class="steps">
+      <li>Pick one prompt from this guide you'd actually use every week. The follow-up sequence, the onboarding checklist, and the monthly client report are usually the first ones worth converting.</li>
+      <li>Open a fresh Claude chat and paste the message below, with your chosen prompt pasted in at the end of it.</li>
+      <li>Claude will build the Skill for you and hand you a file to save to your computer.</li>
+      <li>In Claude, go to Settings, then Capabilities or Customize, then Skills. Click the plus button and upload the file. From then on, just describe what you need and Claude brings the Skill in automatically, no copy-pasting required.</li>
+    </ol>
+
+    <p class="card-prompt" style="margin-bottom:8px;">Turn the prompt below into a Claude Skill named [SKILL NAME]. Every time it's used, have it ask me for [LIST THE BRACKETED FIELDS FROM YOUR PROMPT], then follow the rest of these instructions exactly:
+
+[PASTE YOUR CHOSEN PROMPT FROM THIS GUIDE HERE]</p>
+    <p class="card-tip" style="margin-bottom:32px;">Customize it: Name the skill something you'd actually remember, like "va-onboarding" or "monthly-report," not "Skill 1."</p>
+
+    <p class="lead" style="font-size:14px;color:var(--tm-soft-taupe);margin-bottom:32px;">Skills need code execution turned on in Claude's settings, and they're available on free and paid plans, including the one you're probably already using.</p>
+
+    <p class="pillar-label">Five Worth Starting With</p>
+    <div class="starter-list">
+      <div class="starter-item"><span>Prompt 03</span> &middot; Draft the First 30 Days for a New VA</div>
+      <div class="starter-item"><span>Prompt 42</span> &middot; Write a Month of Email Marketing Without Starting From Scratch</div>
+      <div class="starter-item"><span>Prompt 62</span> &middot; Build the Follow-Up Sequence for Leads Who Went Quiet</div>
+      <div class="starter-item"><span>Prompt 82</span> &middot; Build the Client Onboarding Checklist</div>
+      <div class="starter-item"><span>Prompt 99</span> &middot; Write the &quot;Year in Review&quot; Recap for a Long-Term Client</div>
+    </div>
+  </div>
+</div>
+
+<div class="footer-cta">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#A89684;">Talent Mucho</p>
+    <h2 class="h2">Want help putting these to work?</h2>
+    <p class="lead">Talent Mucho runs hands-on Zoom sessions on exactly this: hiring virtual talent, building GoHighLevel systems, and using AI without needing a technical background. Book a free call and we'll figure out where to start.</p>
+    <div class="ctas">
+      <a class="btn-primary" href="https://talentmucho.com" target="_blank">Book a Call</a>
+      <a class="btn-secondary" style="border-color:#5C534A;color:#F3ECE2;" href="https://instagram.com/meribuilds" target="_blank">Follow on Instagram</a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p><strong style="color:var(--tm-near-black);">Talent Mucho</strong></p>
+  <p>Practical AI and virtual staffing for business owners who run lean.</p>
+  <p><a href="https://talentmucho.com">talentmucho.com</a> &middot; <a href="https://advancedvirtualstaff.com">advancedvirtualstaff.com</a> &middot; <a href="https://instagram.com/meribuilds">@meribuilds</a></p>
+</div>
+
+</body>
+</html>

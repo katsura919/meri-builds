@@ -2,7 +2,7 @@ import { ServiceCard } from "./ServiceCard";
 
 export function ServicesSection() {
   return (
-    <section id="about" className="bg-brand-black w-full min-h-screen py-24">
+    <section id="about" className="bg-espresso w-full">
       <div className="flex flex-col w-full">
         <ServiceCard 
           index="01" 

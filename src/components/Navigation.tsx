@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { StaggeredMenu, StaggeredMenuItem, StaggeredMenuSocialItem } from "./StaggeredMenu";
 
@@ -19,15 +20,22 @@ export function Navigation() {
     <StaggeredMenu
       isFixed={true}
       position="right"
-      colors={["#d97757", "#141413"]}
-      accentColor="#d97757"
-      menuButtonColor="#141413"
-      openMenuButtonColor="#141413"
+      colors={["#F1641E", "#5C4632"]}
+      accentColor="#F1641E"
+      menuButtonColor="#5C4632"
+      openMenuButtonColor="#5C4632"
       changeMenuColorOnOpen={false}
       logo={
-        <div className="font-archivo text-xl uppercase tracking-tighter text-brand-white mix-blend-difference">
-          <Link href="/">Meri</Link>
-        </div>
+        <Link href="/" aria-label="Meri Builds – Home">
+          <Image
+            src="/image/meribuilds.png"
+            alt="Meri Builds logo"
+            width={160}
+            height={80}
+            loading="eager"
+            className="sm-logo-img h-14 w-auto object-contain"
+          />
+        </Link>
       }
       items={menuItems}
       socialItems={socialItems}
